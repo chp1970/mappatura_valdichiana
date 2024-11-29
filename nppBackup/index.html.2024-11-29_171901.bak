@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mappatura Valdichian Sense 2023-2024</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        margin: 20px;
+        background-color: #f4f4f9;
+        color: #333;
+      }
+      h2 {
+        color: #2c3e50;
+        text-align: center;
+      }
+      h3 {
+        color: #34495e;
+        margin-top: 20px;
+      }
+      ol {
+        padding-left: 20px;
+      }
+      ol li {
+        margin-bottom: 10px;
+      }
+      a {
+        color: #3498db;
+        text-decoration: none;
+      }
+      a:hover {
+        color: #1abc9c;
+        text-decoration: underline;
+      }
+      p {
+        margin: 10px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Maps &amp; Legends chapter 2</h2>
+    <p>&nbsp;</p>
+    <p>Benvenuti nella repository di GitHub contenente i file interattivi delle mappe.</p>
+    <p>&nbsp;</p>
+    <h3>Descrizione mappe</h3>
+    <ol>
+      <li>
+        <a target="_blank" rel="noopener noreferrer" href="https://chp1970.github.io/mappatura_valdichiana/valdichiana_map_final.html">
+          valdichiana_map_final
+        </a>: mappa interattiva con colori tematici che distinguono i comuni della Valdichiana
+      </li>
+      <li>
+        <a target="_blank" rel="noopener noreferrer" href="https://chp1970.github.io/mappatura_valdichiana/relation_map.html">
+          relation_map
+        </a>: mappa tematica che evidenzia le principali relazioni, come Fotografia, Architettura, Mappatura, Altana, e Culturing
+      </li>
+            <li>
+        <a target="_blank" rel="noopener noreferrer" href="https://chp1970.github.io/mappatura_valdichiana/heatmap_coordinates_poliziano.html">
+          heatmap_coordinates_poliziano
+        </a>
+      </li>
+          </ol>
+    <p>&nbsp;</p>
+  </body>
+</html>
