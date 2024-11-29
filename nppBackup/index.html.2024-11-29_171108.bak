@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="it">
+  <link rel="stylesheet" type="text/css" href="https://legoman8304.github.io/style.css">
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mappatura Valdichian Sense 2023-2024</title>
+    </head>
+  <body>
+    <h2>Maps &amp; Legends chapter 2</h2>
+<p>&nbsp;</p>
+<p>Benvenuti nella repository di GitHub contenente i file interattivi delle mappe.</p>
+<p>&nbsp;</p>
+<h3>Descrizione mappe</h3>
+<ol>
+    <li><a target="_blank" rel="noopener noreferrer" href="https://chp1970.github.io/mappatura_valdichiana/valdichiana_map_final.html">valdichiana_map_final</a>: mappa interattiva con colori tematici che distinguono i comuni della Valdichiana</li>
+    <li><a target="_blank" rel="noopener noreferrer" href="https://chp1970.github.io/mappatura_valdichiana/relation_map.html">relation_map</a>: mappa tematica che evidenzia le principali relazioni, come Fotografia, Architettura, Mappatura, Altana, e Culturing</li>
+    <li><a target="_blank" rel="noopener noreferrer" href="https://chp1970.github.io/mappatura_valdichiana/valdichiana_map_relazioni.html">Mappa valdichiana_map_relazioni</a></li>
+    <li><a target="_blank" rel="noopener noreferrer" href="https://chp1970.github.io/mappatura_valdichiana/heatmap_coordinates_poliziano.html">heatmap_coordinates_poliziano</a></li>
+    <li><a target="_blank" rel="noopener noreferrer" href="https://chp1970.github.io/mappatura_valdichiana/valdichiana_map_colored.html">valdichiana_map_colored.html</a></li>
+</ol>
+<p>&nbsp;</p>
+  </body>
+</html>
