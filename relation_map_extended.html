@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relational Map</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+</head>
+<body>
+    <div id="map" style="width: 100%; height: 600px;"></div>
+    <script>
+        var map = L.map('map').setView([43.0766629923141, 11.862343830572254], 12);
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+        }).addTo(map);
+
+        // Add markers with colors for associations and activities
+        var markers = [
+            {name: "Altana", lat: 43.133136, lon: 11.794643, activities: "Altana", color: "blue"},
+            {name: "Culturing", lat: 43.110876, lon: 11.784529, activities: "Culturing", color: "purple"},
+            {name: "IISS Poliziano", lat: 43.092167, lon: 11.781115, activities: "Fotografia, Altana", color: "green"},
+            {name: "Cantiere d'Arte", lat: 43.098924, lon: 11.793498, activities: "Mappatura, Culturing", color: "orange"}
+        ];
+
+        markers.forEach(function(marker) {
+            L.marker([marker.lat, marker.lon], {
+                icon: L.icon({
+                    iconUrl: `https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-${marker.color}.png`,
+                    shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.3.4/images/marker-shadow.png',
+                    iconSize: [25, 41],
+                    iconAnchor: [12, 41],
+                    popupAnchor: [1, -34],
+                    shadowSize: [41, 41]
+                })
+            }).addTo(map).bindPopup(`<b>${marker.name}</b><br>${marker.activities}`);
+        });
+    </script>
+</body>
+</html>
