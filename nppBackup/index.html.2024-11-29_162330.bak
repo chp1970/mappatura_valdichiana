@@ -15,9 +15,10 @@
 <p>&nbsp;</p>
 <h3>Descrizione mappe</h3>
 <ol>
-    <li>valdichiana_map_final:  mappa interattiva con colori tematici che distinguono i comuni della Valdichiana</li>
-	<li>relation_map: mappa tematica che evidenzia le principali relazioni, come Fotografia, Architettura, Mappatura, Altana, e Culturing</li>
+    <li>relation_map</li>
+    <li>valdichiana_map_final</li>
     <li>Mappa valdichiana_map_relazioni</li>
+    <li>valdichiana_map_with_paths</li>
     <li>heatmap_coordinates_poliziano</li>
 </ol>
 <p>&nbsp;</p>
