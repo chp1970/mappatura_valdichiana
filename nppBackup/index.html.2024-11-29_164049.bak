@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="it">
+  <link rel="stylesheet" type="text/css" href="https://legoman8304.github.io/style.css">
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mappatura Valdichian Sense 2023-2024</title>
+    </head>
+  <body>
+    <h2>Maps &amp; Legends chapter 2</h2>
+<p>&nbsp;</p>
+<p>Benvenuti nella repository di GitHub contenente i file interattivi delle mappe.</p>
+<p>&nbsp;</p>
+<h3>Descrizione mappe</h3>
+<ol>
+    <li>valdichiana_map_final:  mappa interattiva con colori tematici che distinguono i comuni della Valdichiana</li>
+	<li>relation_map: mappa tematica che evidenzia le principali relazioni, come Fotografia, Architettura, Mappatura, Altana, e Culturing</li>
+    <li>Mappa valdichiana_map_relazioni</li>
+    <li>heatmap_coordinates_poliziano</li>
+</ol>
+<p>&nbsp;</p>
+  </body>
+</html>
