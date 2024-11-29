@@ -57,12 +57,22 @@
           relation_map
         </a>: mappa tematica che evidenzia le principali relazioni, come Fotografia, Architettura, Mappatura, Altana, e Culturing
       </li>
-            <li>
+      <li>
+        <a target="_blank" rel="noopener noreferrer" href="https://chp1970.github.io/mappatura_valdichiana/valdichiana_map_relazioni.html">
+          Mappa valdichiana_map_relazioni
+        </a>
+      </li>
+      <li>
         <a target="_blank" rel="noopener noreferrer" href="https://chp1970.github.io/mappatura_valdichiana/heatmap_coordinates_poliziano.html">
           heatmap_coordinates_poliziano
         </a>
       </li>
-          </ol>
+      <li>
+        <a target="_blank" rel="noopener noreferrer" href="https://chp1970.github.io/mappatura_valdichiana/valdichiana_map_colored.html">
+          valdichiana_map_colored.html
+        </a>
+      </li>
+    </ol>
     <p>&nbsp;</p>
   </body>
 </html>
