@@ -1,0 +1,3182 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_7c74d968e0731a09f0269f1eb4d1b6a6 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_7c74d968e0731a09f0269f1eb4d1b6a6" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_7c74d968e0731a09f0269f1eb4d1b6a6 = L.map(
+                "map_7c74d968e0731a09f0269f1eb4d1b6a6",
+                {
+                    center: [43.0766629923141, 11.862343830572254],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_f7e818faaace237bdd045727a35709c3 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_7c74d968e0731a09f0269f1eb4d1b6a6);
+        
+    
+            var marker_cluster_053de441b01eccfa825d53598ac9736f = L.markerClusterGroup(
+                {}
+            );
+            map_7c74d968e0731a09f0269f1eb4d1b6a6.addLayer(marker_cluster_053de441b01eccfa825d53598ac9736f);
+        
+    
+            var circle_marker_55f7f7d770bb59c684ee61b10eb7059c = L.circleMarker(
+                [43.133136, 11.794643],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_053de441b01eccfa825d53598ac9736f);
+        
+    
+        var popup_e82f9f9c58e16f4768ce3d03123c3a8c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1b813b5cf4c3503576d2950162fab3f4 = $(`<div id="html_1b813b5cf4c3503576d2950162fab3f4" style="width: 100.0%; height: 100.0%;"><b>Podere con bottiglioni e testa di toro</b><br><i>Montepulciano</i><br>Lo stato delle cose, Altana, Fotografia,</div>`)[0];
+            popup_e82f9f9c58e16f4768ce3d03123c3a8c.setContent(html_1b813b5cf4c3503576d2950162fab3f4);
+        
+
+        circle_marker_55f7f7d770bb59c684ee61b10eb7059c.bindPopup(popup_e82f9f9c58e16f4768ce3d03123c3a8c)
+        ;
+
+        
+    
+    
+            circle_marker_55f7f7d770bb59c684ee61b10eb7059c.bindTooltip(
+                `<div>
+                     Montepulciano
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_19c483b56e4cfb86b28456eb569be563 = L.circleMarker(
+                [43.1108764, 11.7845287],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_053de441b01eccfa825d53598ac9736f);
+        
+    
+        var popup_df6d9d590e74aee39636f6aa6b4d92cb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c43ba4b48013048aaa5ba1e81d755945 = $(`<div id="html_c43ba4b48013048aaa5ba1e81d755945" style="width: 100.0%; height: 100.0%;"><b>Icario Winery</b><br><i>Montepulciano</i><br>ViVa I, Altana, Smartography,</div>`)[0];
+            popup_df6d9d590e74aee39636f6aa6b4d92cb.setContent(html_c43ba4b48013048aaa5ba1e81d755945);
+        
+
+        circle_marker_19c483b56e4cfb86b28456eb569be563.bindPopup(popup_df6d9d590e74aee39636f6aa6b4d92cb)
+        ;
+
+        
+    
+    
+            circle_marker_19c483b56e4cfb86b28456eb569be563.bindTooltip(
+                `<div>
+                     Montepulciano
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_1ebeb497c8ab02929cd107e6287911cf = L.circleMarker(
+                [43.0921667, 11.7811148],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_053de441b01eccfa825d53598ac9736f);
+        
+    
+        var popup_3b23b2ea2bafa17c272c47a7efc3c5b9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_552ed3060bfc44a749aacc41bc556596 = $(`<div id="html_552ed3060bfc44a749aacc41bc556596" style="width: 100.0%; height: 100.0%;"><b>Sede Fondazione Cantiere Internazionale d'Arte Internazionale</b><br><i>Montepulciano</i><br>Altana, Culturing, Cantiere d'Arte di Montepulciano, partner, Progetto ViVa</div>`)[0];
+            popup_3b23b2ea2bafa17c272c47a7efc3c5b9.setContent(html_552ed3060bfc44a749aacc41bc556596);
+        
+
+        circle_marker_1ebeb497c8ab02929cd107e6287911cf.bindPopup(popup_3b23b2ea2bafa17c272c47a7efc3c5b9)
+        ;
+
+        
+    
+    
+            circle_marker_1ebeb497c8ab02929cd107e6287911cf.bindTooltip(
+                `<div>
+                     Montepulciano
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_6e7d37d63dbbb88bea350d637c2e20a8 = L.circleMarker(
+                [43.0989237, 11.7934975],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_053de441b01eccfa825d53598ac9736f);
+        
+    
+        var popup_be8af9bef6d4265ff2f966a9295de210 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7ed79e148f0543616f85a70ad5d2722b = $(`<div id="html_7ed79e148f0543616f85a70ad5d2722b" style="width: 100.0%; height: 100.0%;"><b>Primo incontro con preside I.I.S.S. Agnolo Poliziano</b><br><i>Montepulciano</i><br>Altana, IISS Poliziano, AI, 4B LS,</div>`)[0];
+            popup_be8af9bef6d4265ff2f966a9295de210.setContent(html_7ed79e148f0543616f85a70ad5d2722b);
+        
+
+        circle_marker_6e7d37d63dbbb88bea350d637c2e20a8.bindPopup(popup_be8af9bef6d4265ff2f966a9295de210)
+        ;
+
+        
+    
+    
+            circle_marker_6e7d37d63dbbb88bea350d637c2e20a8.bindTooltip(
+                `<div>
+                     Montepulciano
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_efe4ea8c3636fbf39c1c91b5233e2d10 = L.circleMarker(
+                [43.038732, 11.931171],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_053de441b01eccfa825d53598ac9736f);
+        
+    
+        var popup_165e37f69cbc65dcbf42ef9311e23637 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_499aad921a25691017499e5a9f1acbe9 = $(`<div id="html_499aad921a25691017499e5a9f1acbe9" style="width: 100.0%; height: 100.0%;"><b>Dolciano</b><br><i>Chiusi</i><br>Mappatura, percorsi, Culturing</div>`)[0];
+            popup_165e37f69cbc65dcbf42ef9311e23637.setContent(html_499aad921a25691017499e5a9f1acbe9);
+        
+
+        circle_marker_efe4ea8c3636fbf39c1c91b5233e2d10.bindPopup(popup_165e37f69cbc65dcbf42ef9311e23637)
+        ;
+
+        
+    
+    
+            circle_marker_efe4ea8c3636fbf39c1c91b5233e2d10.bindTooltip(
+                `<div>
+                     Chiusi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_4f04be129e4613a7ff95aa6e4186d635 = L.circleMarker(
+                [43.0490905, 11.9606446],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_053de441b01eccfa825d53598ac9736f);
+        
+    
+        var popup_4547191967f78305ecdbc37a6cabe6b4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a299dd633a7cced1ee185968edc44da2 = $(`<div id="html_a299dd633a7cced1ee185968edc44da2" style="width: 100.0%; height: 100.0%;"><b>Ristorante da Gino (Lago di Chiusi)</b><br><i>Chiusi</i><br>Altana, interviste, Lo stato delle cose, Fotografia, Food,</div>`)[0];
+            popup_4547191967f78305ecdbc37a6cabe6b4.setContent(html_a299dd633a7cced1ee185968edc44da2);
+        
+
+        circle_marker_4f04be129e4613a7ff95aa6e4186d635.bindPopup(popup_4547191967f78305ecdbc37a6cabe6b4)
+        ;
+
+        
+    
+    
+            circle_marker_4f04be129e4613a7ff95aa6e4186d635.bindTooltip(
+                `<div>
+                     Chiusi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_f2012f8400afab3e8e6f3b54b008c150 = L.circleMarker(
+                [43.017175, 11.9591744],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_053de441b01eccfa825d53598ac9736f);
+        
+    
+        var popup_3c1d3f197adede19ea64983763196574 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_43006fbeeb1034f06518b4652aa4816b = $(`<div id="html_43006fbeeb1034f06518b4652aa4816b" style="width: 100.0%; height: 100.0%;"><b>Foto e intervista Altana</b><br><i>Chiusi</i><br>Altana, interviste, Lo stato delle cose, Fotografia, podcast</div>`)[0];
+            popup_3c1d3f197adede19ea64983763196574.setContent(html_43006fbeeb1034f06518b4652aa4816b);
+        
+
+        circle_marker_f2012f8400afab3e8e6f3b54b008c150.bindPopup(popup_3c1d3f197adede19ea64983763196574)
+        ;
+
+        
+    
+    
+            circle_marker_f2012f8400afab3e8e6f3b54b008c150.bindTooltip(
+                `<div>
+                     Chiusi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_da0d5c93630a6ba1fda7d54546154a51 = L.circleMarker(
+                [43.04504, 11.947678],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_053de441b01eccfa825d53598ac9736f);
+        
+    
+        var popup_d146274d286b0461fd4fc13990ac4f0e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1b9ffc1e801bbe160f65620efd837f92 = $(`<div id="html_1b9ffc1e801bbe160f65620efd837f92" style="width: 100.0%; height: 100.0%;"><b>Palme in Valdichiana 01.</b><br><i>Chiusi</i><br>Mappatura, palme, Culturing, spazi "altri",</div>`)[0];
+            popup_d146274d286b0461fd4fc13990ac4f0e.setContent(html_1b9ffc1e801bbe160f65620efd837f92);
+        
+
+        circle_marker_da0d5c93630a6ba1fda7d54546154a51.bindPopup(popup_d146274d286b0461fd4fc13990ac4f0e)
+        ;
+
+        
+    
+    
+            circle_marker_da0d5c93630a6ba1fda7d54546154a51.bindTooltip(
+                `<div>
+                     Chiusi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_943a73b579c4edc158c3b5601ef64333 = L.circleMarker(
+                [43.114404, 11.877446],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_053de441b01eccfa825d53598ac9736f);
+        
+    
+        var popup_c4e48de60f6ca4a75e60d966a3e2e501 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_27a0213ef3f7005f117df10a25115fd3 = $(`<div id="html_27a0213ef3f7005f117df10a25115fd3" style="width: 100.0%; height: 100.0%;"><b>Rilevamento intermedio</b><br><i>Montepulciano</i><br>Mappatura, percorsi, Culturing, podcast, Opificio Badesse,</div>`)[0];
+            popup_c4e48de60f6ca4a75e60d966a3e2e501.setContent(html_27a0213ef3f7005f117df10a25115fd3);
+        
+
+        circle_marker_943a73b579c4edc158c3b5601ef64333.bindPopup(popup_c4e48de60f6ca4a75e60d966a3e2e501)
+        ;
+
+        
+    
+    
+            circle_marker_943a73b579c4edc158c3b5601ef64333.bindTooltip(
+                `<div>
+                     Montepulciano
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_93bc762e5038eeba9f67ff00230d9fff = L.circleMarker(
+                [43.210152, 11.803626],
+                {"bubblingMouseEvents": true, "color": "pink", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_053de441b01eccfa825d53598ac9736f);
+        
+    
+        var popup_344ebfb2986b1a8e05675c96bf720568 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_72d30ff32802e997df89a4960e859924 = $(`<div id="html_72d30ff32802e997df89a4960e859924" style="width: 100.0%; height: 100.0%;"><b>Consorzio Agrario Siena (sede Bettolle)</b><br><i>Sinalunga</i><br>Altana, Culturing, Food,</div>`)[0];
+            popup_344ebfb2986b1a8e05675c96bf720568.setContent(html_72d30ff32802e997df89a4960e859924);
+        
+
+        circle_marker_93bc762e5038eeba9f67ff00230d9fff.bindPopup(popup_344ebfb2986b1a8e05675c96bf720568)
+        ;
+
+        
+    
+    
+            circle_marker_93bc762e5038eeba9f67ff00230d9fff.bindTooltip(
+                `<div>
+                     Sinalunga
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_2d7e994fcf1e540c84c47f7fae0d181d = L.circleMarker(
+                [43.220356, 11.7572365],
+                {"bubblingMouseEvents": true, "color": "pink", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_053de441b01eccfa825d53598ac9736f);
+        
+    
+        var popup_afe6b8f0c4295295c04e13a65833c396 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f1b1c6dd223e850ed543707e4973b808 = $(`<div id="html_f1b1c6dd223e850ed543707e4973b808" style="width: 100.0%; height: 100.0%;"><b>Entrata in Sinalunga, seconda tornata di rilevazioni</b><br><i>Sinalunga</i><br>Mappatura, percorsi, Culturing</div>`)[0];
+            popup_afe6b8f0c4295295c04e13a65833c396.setContent(html_f1b1c6dd223e850ed543707e4973b808);
+        
+
+        circle_marker_2d7e994fcf1e540c84c47f7fae0d181d.bindPopup(popup_afe6b8f0c4295295c04e13a65833c396)
+        ;
+
+        
+    
+    
+            circle_marker_2d7e994fcf1e540c84c47f7fae0d181d.bindTooltip(
+                `<div>
+                     Sinalunga
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_7694faed619b5dc0f7dfa4773ca7e886 = L.circleMarker(
+                [43.15485, 11.699667],
+                {"bubblingMouseEvents": true, "color": "lightblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_053de441b01eccfa825d53598ac9736f);
+        
+    
+        var popup_ab30583789e16d38d8f9e1a625aab805 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_87720ffdfe562c582669a7f30ec42904 = $(`<div id="html_87720ffdfe562c582669a7f30ec42904" style="width: 100.0%; height: 100.0%;"><b>Cava Benocci Madonnino dei Monti</b><br><i>Torrita di Siena</i><br>Lo stato delle cose, Altana, Fotografia,</div>`)[0];
+            popup_ab30583789e16d38d8f9e1a625aab805.setContent(html_87720ffdfe562c582669a7f30ec42904);
+        
+
+        circle_marker_7694faed619b5dc0f7dfa4773ca7e886.bindPopup(popup_ab30583789e16d38d8f9e1a625aab805)
+        ;
+
+        
+    
+    
+            circle_marker_7694faed619b5dc0f7dfa4773ca7e886.bindTooltip(
+                `<div>
+                     Torrita di Siena
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_645f53e90a1a497485051416cdd43b85 = L.circleMarker(
+                [43.09819, 11.793944],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_053de441b01eccfa825d53598ac9736f);
+        
+    
+        var popup_321332d660f188f7895c4a5f831292a4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f878d1797f904432260162e65a7c9250 = $(`<div id="html_f878d1797f904432260162e65a7c9250" style="width: 100.0%; height: 100.0%;"><b>Liceo Poliziano secondo meeting con Preside</b><br><i>Montepulciano</i><br>Altana, IISS Poliziano, AI, 4B LS,</div>`)[0];
+            popup_321332d660f188f7895c4a5f831292a4.setContent(html_f878d1797f904432260162e65a7c9250);
+        
+
+        circle_marker_645f53e90a1a497485051416cdd43b85.bindPopup(popup_321332d660f188f7895c4a5f831292a4)
+        ;
+
+        
+    
+    
+            circle_marker_645f53e90a1a497485051416cdd43b85.bindTooltip(
+                `<div>
+                     Montepulciano
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_725e69517ff1fec8c89045fec3d0ff3f = L.circleMarker(
+                [43.09818, 11.79471],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_053de441b01eccfa825d53598ac9736f);
+        
+    
+        var popup_b1d41739285e27ff1085db1ebfaa1ab3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1fbdaf8a9b75cda6af4bfd6ec13b6a6b = $(`<div id="html_1fbdaf8a9b75cda6af4bfd6ec13b6a6b" style="width: 100.0%; height: 100.0%;"><b>Liceo Poliziano possibile luogo per l'installazione di una Vertical Farm.</b><br><i>Montepulciano</i><br>Altana, Culturing, Opificio Badesse, IISS Poliziano, Vertical Farm</div>`)[0];
+            popup_b1d41739285e27ff1085db1ebfaa1ab3.setContent(html_1fbdaf8a9b75cda6af4bfd6ec13b6a6b);
+        
+
+        circle_marker_725e69517ff1fec8c89045fec3d0ff3f.bindPopup(popup_b1d41739285e27ff1085db1ebfaa1ab3)
+        ;
+
+        
+    
+    
+            circle_marker_725e69517ff1fec8c89045fec3d0ff3f.bindTooltip(
+                `<div>
+                     Montepulciano
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_eab5af094633b9557ce1088f0e124715 = L.circleMarker(
+                [43.113632, 11.858246],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_053de441b01eccfa825d53598ac9736f);
+        
+    
+        var popup_1026ce99de6484ee00c8e32ef9149f58 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8b1b250b4a4c690fb0761c56c9d557b2 = $(`<div id="html_8b1b250b4a4c690fb0761c56c9d557b2" style="width: 100.0%; height: 100.0%;"><b>Acquaviva.</b><br><i>Montepulciano</i><br>Mappatura, percorsi, Culturing, podcast, Opificio Badesse,</div>`)[0];
+            popup_1026ce99de6484ee00c8e32ef9149f58.setContent(html_8b1b250b4a4c690fb0761c56c9d557b2);
+        
+
+        circle_marker_eab5af094633b9557ce1088f0e124715.bindPopup(popup_1026ce99de6484ee00c8e32ef9149f58)
+        ;
+
+        
+    
+    
+            circle_marker_eab5af094633b9557ce1088f0e124715.bindTooltip(
+                `<div>
+                     Montepulciano
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_73385b49be5aa660a983fc8fc5360d7a = L.circleMarker(
+                [43.06467, 11.90897],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_053de441b01eccfa825d53598ac9736f);
+        
+    
+        var popup_d1db52da403dd7088d530e79f3568c90 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1f6f11287590264ab63b8987bba42566 = $(`<div id="html_1f6f11287590264ab63b8987bba42566" style="width: 100.0%; height: 100.0%;"><b>Montallese, stazione ferroviaria.</b><br><i>Chiusi</i><br>Mappatura, percorsi, Culturing, Opificio Badesse, Treno, podcast, Opificio Badesse,</div>`)[0];
+            popup_d1db52da403dd7088d530e79f3568c90.setContent(html_1f6f11287590264ab63b8987bba42566);
+        
+
+        circle_marker_73385b49be5aa660a983fc8fc5360d7a.bindPopup(popup_d1db52da403dd7088d530e79f3568c90)
+        ;
+
+        
+    
+    
+            circle_marker_73385b49be5aa660a983fc8fc5360d7a.bindTooltip(
+                `<div>
+                     Chiusi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_43f6ec5c663efdde089f8003f62298c6 = L.circleMarker(
+                [43.017204, 11.938046],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_053de441b01eccfa825d53598ac9736f);
+        
+    
+        var popup_0ec94bcc70c101e51492c7938ca00d28 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_65bc83beb487ab9157dfd3312fe866db = $(`<div id="html_65bc83beb487ab9157dfd3312fe866db" style="width: 100.0%; height: 100.0%;"><b>Rigattiere sulla strada. Punto di interese per set forografico.</b><br><i>Chiusi</i><br>Lo stato delle cose, Altana, Fotografia,</div>`)[0];
+            popup_0ec94bcc70c101e51492c7938ca00d28.setContent(html_65bc83beb487ab9157dfd3312fe866db);
+        
+
+        circle_marker_43f6ec5c663efdde089f8003f62298c6.bindPopup(popup_0ec94bcc70c101e51492c7938ca00d28)
+        ;
+
+        
+    
+    
+            circle_marker_43f6ec5c663efdde089f8003f62298c6.bindTooltip(
+                `<div>
+                     Chiusi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_ccd38ca8b4f0cc537a8d886c9649b398 = L.circleMarker(
+                [43.01514, 11.950644],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_053de441b01eccfa825d53598ac9736f);
+        
+    
+        var popup_a338c4269bd595982ac05c9103c1b1cd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_09266380867ecf2899d3599ffaae727d = $(`<div id="html_09266380867ecf2899d3599ffaae727d" style="width: 100.0%; height: 100.0%;"><b>Chiusi Parcheggio Via dei Forti/Graziano da Chiusi</b><br><i>Chiusi</i><br>Lo stato delle cose, Altana, Fotografia, Fondazione Orizzonti d'Arte,</div>`)[0];
+            popup_a338c4269bd595982ac05c9103c1b1cd.setContent(html_09266380867ecf2899d3599ffaae727d);
+        
+
+        circle_marker_ccd38ca8b4f0cc537a8d886c9649b398.bindPopup(popup_a338c4269bd595982ac05c9103c1b1cd)
+        ;
+
+        
+    
+    
+            circle_marker_ccd38ca8b4f0cc537a8d886c9649b398.bindTooltip(
+                `<div>
+                     Chiusi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_ff81f28404b7f3d9097ec65c43f41acc = L.circleMarker(
+                [43.015903, 11.9494705],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_053de441b01eccfa825d53598ac9736f);
+        
+    
+        var popup_ea083c71d43a490f4059fe308959c07b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4f0b5dab7c65cb96d626cca516002ed2 = $(`<div id="html_4f0b5dab7c65cb96d626cca516002ed2" style="width: 100.0%; height: 100.0%;"><b>Edificio Ex Casa del Fascio di Chiusi</b><br><i>Chiusi</i><br>Lo stato delle cose, Altana, Fotografia, Museo nazionale etrusco, Architettura, restauro,</div>`)[0];
+            popup_ea083c71d43a490f4059fe308959c07b.setContent(html_4f0b5dab7c65cb96d626cca516002ed2);
+        
+
+        circle_marker_ff81f28404b7f3d9097ec65c43f41acc.bindPopup(popup_ea083c71d43a490f4059fe308959c07b)
+        ;
+
+        
+    
+    
+            circle_marker_ff81f28404b7f3d9097ec65c43f41acc.bindTooltip(
+                `<div>
+                     Chiusi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_656c24161cd2059a79735346daf92fec = L.circleMarker(
+                [43.015377, 11.950268],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_053de441b01eccfa825d53598ac9736f);
+        
+    
+        var popup_6ee807614373839dc0dfdeca27226ac8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b4094f889deaa32f074eed978ad9e1b1 = $(`<div id="html_b4094f889deaa32f074eed978ad9e1b1" style="width: 100.0%; height: 100.0%;"><b>Parco dei Forti, Chiusi</b><br><i>Chiusi</i><br>Lo stato delle cose, Altana, Fotografia, scatto confermato, link,</div>`)[0];
+            popup_6ee807614373839dc0dfdeca27226ac8.setContent(html_b4094f889deaa32f074eed978ad9e1b1);
+        
+
+        circle_marker_656c24161cd2059a79735346daf92fec.bindPopup(popup_6ee807614373839dc0dfdeca27226ac8)
+        ;
+
+        
+    
+    
+            circle_marker_656c24161cd2059a79735346daf92fec.bindTooltip(
+                `<div>
+                     Chiusi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_622c8ac144eb5c80cb7c4ca94ebdee66 = L.circleMarker(
+                [43.015305, 11.948711],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_053de441b01eccfa825d53598ac9736f);
+        
+    
+        var popup_eb44668a23679789033ae55917ec4613 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_117b8916c7edd37ca582d9c584f2e558 = $(`<div id="html_117b8916c7edd37ca582d9c584f2e558" style="width: 100.0%; height: 100.0%;"><b>Giardini vescovili e Museo diocesano della cattedrale.</b><br><i>Chiusi</i><br>Altana, Culturing, Orizzonti d'Arte, partner, Progetto ViVa, podcast,</div>`)[0];
+            popup_eb44668a23679789033ae55917ec4613.setContent(html_117b8916c7edd37ca582d9c584f2e558);
+        
+
+        circle_marker_622c8ac144eb5c80cb7c4ca94ebdee66.bindPopup(popup_eb44668a23679789033ae55917ec4613)
+        ;
+
+        
+    
+    
+            circle_marker_622c8ac144eb5c80cb7c4ca94ebdee66.bindTooltip(
+                `<div>
+                     Chiusi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_a16a73aeb7c15134e6ffa69ae38ddff5 = L.circleMarker(
+                [43.01552, 11.94906],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_053de441b01eccfa825d53598ac9736f);
+        
+    
+        var popup_b7b62e8b6ff20f694c651b9ee666f1e4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8f80ffa119bde7496af7f914df1ceb5b = $(`<div id="html_8f80ffa119bde7496af7f914df1ceb5b" style="width: 100.0%; height: 100.0%;"><b>Duomo di Chiusi. Concattedrale di San Secondiano</b><br><i>Chiusi</i><br>Altana, Culturing, Orizzonti d'Arte, mappatura, edificio storico, mosaico, Siena, Tartuca.</div>`)[0];
+            popup_b7b62e8b6ff20f694c651b9ee666f1e4.setContent(html_8f80ffa119bde7496af7f914df1ceb5b);
+        
+
+        circle_marker_a16a73aeb7c15134e6ffa69ae38ddff5.bindPopup(popup_b7b62e8b6ff20f694c651b9ee666f1e4)
+        ;
+
+        
+    
+    
+            circle_marker_a16a73aeb7c15134e6ffa69ae38ddff5.bindTooltip(
+                `<div>
+                     Chiusi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_cdf4be37c2271bcf78b900cdde90ec47 = L.circleMarker(
+                [43.01504, 11.947245],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_053de441b01eccfa825d53598ac9736f);
+        
+    
+        var popup_464bf834379ad2286e7df274e945c893 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_71a81b52c3602e1d25b60df1ac12d0c9 = $(`<div id="html_71a81b52c3602e1d25b60df1ac12d0c9" style="width: 100.0%; height: 100.0%;"><b>Chiusi sedia per possibile scatto fotografico.</b><br><i>Chiusi</i><br>Lo stato delle cose, Altana, Fotografia,</div>`)[0];
+            popup_464bf834379ad2286e7df274e945c893.setContent(html_71a81b52c3602e1d25b60df1ac12d0c9);
+        
+
+        circle_marker_cdf4be37c2271bcf78b900cdde90ec47.bindPopup(popup_464bf834379ad2286e7df274e945c893)
+        ;
+
+        
+    
+    
+            circle_marker_cdf4be37c2271bcf78b900cdde90ec47.bindTooltip(
+                `<div>
+                     Chiusi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_5669dd6625cd292230c31b24daee4377 = L.circleMarker(
+                [43.0160274, 11.945715973],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_053de441b01eccfa825d53598ac9736f);
+        
+    
+        var popup_6df31d8e978c3e6525e535cc045f3276 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_56d8e349053a5c8afd48d2c244c3f13a = $(`<div id="html_56d8e349053a5c8afd48d2c244c3f13a" style="width: 100.0%; height: 100.0%;"><b>Ex Collegio Paolozzi foresteria.</b><br><i>Chiusi</i><br>Altana, Culturing, Orizzonti d'Arte, foresteria, Comune di Chiusi,</div>`)[0];
+            popup_6df31d8e978c3e6525e535cc045f3276.setContent(html_56d8e349053a5c8afd48d2c244c3f13a);
+        
+
+        circle_marker_5669dd6625cd292230c31b24daee4377.bindPopup(popup_6df31d8e978c3e6525e535cc045f3276)
+        ;
+
+        
+    
+    
+            circle_marker_5669dd6625cd292230c31b24daee4377.bindTooltip(
+                `<div>
+                     Chiusi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_f1e133877674aa7df7f2720c91df4fcf = L.circleMarker(
+                [43.016647, 11.945812],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_053de441b01eccfa825d53598ac9736f);
+        
+    
+        var popup_8b2d8a101876c4e6b5dc26282937a517 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c1f5f380a38122b4fbc279dc81e036e8 = $(`<div id="html_c1f5f380a38122b4fbc279dc81e036e8" style="width: 100.0%; height: 100.0%;"><b>Piazza Vittorio Veneto</b><br><i>Chiusi</i><br>Mappatura, percorsi, Culturing</div>`)[0];
+            popup_8b2d8a101876c4e6b5dc26282937a517.setContent(html_c1f5f380a38122b4fbc279dc81e036e8);
+        
+
+        circle_marker_f1e133877674aa7df7f2720c91df4fcf.bindPopup(popup_8b2d8a101876c4e6b5dc26282937a517)
+        ;
+
+        
+    
+    
+            circle_marker_f1e133877674aa7df7f2720c91df4fcf.bindTooltip(
+                `<div>
+                     Chiusi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_812c309f359a528aad9d779af564e3ea = L.circleMarker(
+                [43.01655, 11.946796],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_053de441b01eccfa825d53598ac9736f);
+        
+    
+        var popup_26c2f87a21e4918be2b99d0434d634e1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_de5a0770d29cc0be409be600f6c5c992 = $(`<div id="html_de5a0770d29cc0be409be600f6c5c992" style="width: 100.0%; height: 100.0%;"><b>Iscrizioni, casa della cultura Chiusi.</b><br><i>Chiusi</i><br>Altana, Culturing, Orizzonti d'Arte, partner, Progetto ViVa, Lo stato delle cose,</div>`)[0];
+            popup_26c2f87a21e4918be2b99d0434d634e1.setContent(html_de5a0770d29cc0be409be600f6c5c992);
+        
+
+        circle_marker_812c309f359a528aad9d779af564e3ea.bindPopup(popup_26c2f87a21e4918be2b99d0434d634e1)
+        ;
+
+        
+    
+    
+            circle_marker_812c309f359a528aad9d779af564e3ea.bindTooltip(
+                `<div>
+                     Chiusi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_b1bda9de53380555c2de89e99da1fce6 = L.circleMarker(
+                [43.01643, 11.947149],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_053de441b01eccfa825d53598ac9736f);
+        
+    
+        var popup_687ead2185137c62130e412013072fb7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3465af6224de9b4ed45c2ce554306d5e = $(`<div id="html_3465af6224de9b4ed45c2ce554306d5e" style="width: 100.0%; height: 100.0%;"><b>Chiesa s. Francesco con annesso chiostro per eventuale mostra.</b><br><i>Chiusi</i><br>Altana, Culturing, Orizzonti d'Arte, partner, Progetto ViVa, Lo stato delle cose,</div>`)[0];
+            popup_687ead2185137c62130e412013072fb7.setContent(html_3465af6224de9b4ed45c2ce554306d5e);
+        
+
+        circle_marker_b1bda9de53380555c2de89e99da1fce6.bindPopup(popup_687ead2185137c62130e412013072fb7)
+        ;
+
+        
+    
+    
+            circle_marker_b1bda9de53380555c2de89e99da1fce6.bindTooltip(
+                `<div>
+                     Chiusi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_aaf1acd14c06bc364de2a43a02e584fa = L.circleMarker(
+                [43.018276, 11.9490595],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_053de441b01eccfa825d53598ac9736f);
+        
+    
+        var popup_951f802e348bc67abe20a7f6b0a806ac = L.popup({"maxWidth": "100%"});
+
+        
+            var html_af313d4723346aec402475b439f45e69 = $(`<div id="html_af313d4723346aec402475b439f45e69" style="width: 100.0%; height: 100.0%;"><b>Vicino porta lavina Chiusi.</b><br><i>Chiusi</i><br>Altana, Culturing, Orizzonti d'Arte, mappatura, edificio storico, archeologia,</div>`)[0];
+            popup_951f802e348bc67abe20a7f6b0a806ac.setContent(html_af313d4723346aec402475b439f45e69);
+        
+
+        circle_marker_aaf1acd14c06bc364de2a43a02e584fa.bindPopup(popup_951f802e348bc67abe20a7f6b0a806ac)
+        ;
+
+        
+    
+    
+            circle_marker_aaf1acd14c06bc364de2a43a02e584fa.bindTooltip(
+                `<div>
+                     Chiusi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_b8de82075277efb6ffe96279d399a7c7 = L.circleMarker(
+                [43.018368, 11.949365],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_053de441b01eccfa825d53598ac9736f);
+        
+    
+        var popup_459bd546c57b63108f41063bf18f1ef3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bdb411467fae8d60cd17f12f7d8c745b = $(`<div id="html_bdb411467fae8d60cd17f12f7d8c745b" style="width: 100.0%; height: 100.0%;"><b>Lavatoi possibile mostra.</b><br><i>Chiusi</i><br>Altana, Culturing, Orizzonti d'Arte, partner, Progetto ViVa, Lo stato delle cose,</div>`)[0];
+            popup_459bd546c57b63108f41063bf18f1ef3.setContent(html_bdb411467fae8d60cd17f12f7d8c745b);
+        
+
+        circle_marker_b8de82075277efb6ffe96279d399a7c7.bindPopup(popup_459bd546c57b63108f41063bf18f1ef3)
+        ;
+
+        
+    
+    
+            circle_marker_b8de82075277efb6ffe96279d399a7c7.bindTooltip(
+                `<div>
+                     Chiusi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_8e82572213a05eda00c1cec16559432c = L.circleMarker(
+                [43.017345, 11.94957],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_053de441b01eccfa825d53598ac9736f);
+        
+    
+        var popup_5eb6b97b9f3cbc0791db372e14815edf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_078bb75a2895f8de3f10c17bcb74b7d1 = $(`<div id="html_078bb75a2895f8de3f10c17bcb74b7d1" style="width: 100.0%; height: 100.0%;"><b>Scavi inattivi presso una Domus a Chianciano.</b><br><i>Chiusi</i><br>Altana, Culturing, Orizzonti d'Arte, mappatura, edificio storico, archeologia, spazi interstiziali ,</div>`)[0];
+            popup_5eb6b97b9f3cbc0791db372e14815edf.setContent(html_078bb75a2895f8de3f10c17bcb74b7d1);
+        
+
+        circle_marker_8e82572213a05eda00c1cec16559432c.bindPopup(popup_5eb6b97b9f3cbc0791db372e14815edf)
+        ;
+
+        
+    
+    
+            circle_marker_8e82572213a05eda00c1cec16559432c.bindTooltip(
+                `<div>
+                     Chiusi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_6a101c955e8bb709c37c821454ef028e = L.circleMarker(
+                [43.051617, 11.921617],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_053de441b01eccfa825d53598ac9736f);
+        
+    
+        var popup_dba8b46b937b371373955783911bd93b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f8fb854f21d80e10bb2a57a740c97fc4 = $(`<div id="html_f8fb854f21d80e10bb2a57a740c97fc4" style="width: 100.0%; height: 100.0%;"><b>Set fotografico campo con fabbrica foto Marco Rubegni</b><br><i>Chiusi</i><br>Lo stato delle cose, Altana, Fotografia,</div>`)[0];
+            popup_dba8b46b937b371373955783911bd93b.setContent(html_f8fb854f21d80e10bb2a57a740c97fc4);
+        
+
+        circle_marker_6a101c955e8bb709c37c821454ef028e.bindPopup(popup_dba8b46b937b371373955783911bd93b)
+        ;
+
+        
+    
+    
+            circle_marker_6a101c955e8bb709c37c821454ef028e.bindTooltip(
+                `<div>
+                     Chiusi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_cc79e995d1a0af1d3832cec3be83f952 = L.circleMarker(
+                [43.062492, 11.9119],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_053de441b01eccfa825d53598ac9736f);
+        
+    
+        var popup_cc1bdfd15705f70e9d496726fc519b2b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a2bf0fe1900ca0a0a3a7367c04c2428a = $(`<div id="html_a2bf0fe1900ca0a0a3a7367c04c2428a" style="width: 100.0%; height: 100.0%;"><b>Giostre sotto un cavalcavia a Montallese, foto Marco Rubegni</b><br><i>Chiusi</i><br>Lo stato delle cose, Altana, Fotografia,</div>`)[0];
+            popup_cc1bdfd15705f70e9d496726fc519b2b.setContent(html_a2bf0fe1900ca0a0a3a7367c04c2428a);
+        
+
+        circle_marker_cc79e995d1a0af1d3832cec3be83f952.bindPopup(popup_cc1bdfd15705f70e9d496726fc519b2b)
+        ;
+
+        
+    
+    
+            circle_marker_cc79e995d1a0af1d3832cec3be83f952.bindTooltip(
+                `<div>
+                     Chiusi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_8204346c7e7bd1fe0e568424342c83bb = L.circleMarker(
+                [43.20737, 11.797456],
+                {"bubblingMouseEvents": true, "color": "pink", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_053de441b01eccfa825d53598ac9736f);
+        
+    
+        var popup_0f51cc4d966703168faebd037eb2c90f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f9c31f436ee720f7c820629af2fee148 = $(`<div id="html_f9c31f436ee720f7c820629af2fee148" style="width: 100.0%; height: 100.0%;"><b>Bettolle campo da calcio, foto Marco Rubegni</b><br><i>Sinalunga</i><br>Lo stato delle cose, Altana, Fotografia,</div>`)[0];
+            popup_0f51cc4d966703168faebd037eb2c90f.setContent(html_f9c31f436ee720f7c820629af2fee148);
+        
+
+        circle_marker_8204346c7e7bd1fe0e568424342c83bb.bindPopup(popup_0f51cc4d966703168faebd037eb2c90f)
+        ;
+
+        
+    
+    
+            circle_marker_8204346c7e7bd1fe0e568424342c83bb.bindTooltip(
+                `<div>
+                     Sinalunga
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_3f52601e3c9f9a85088ca569699ca854 = L.circleMarker(
+                [43.058193, 11.831296],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_053de441b01eccfa825d53598ac9736f);
+        
+    
+        var popup_8b9daf709464d3a3664c3f1584ce82ba = L.popup({"maxWidth": "100%"});
+
+        
+            var html_aa90611b68239863123e7c653fdf2fb3 = $(`<div id="html_aa90611b68239863123e7c653fdf2fb3" style="width: 100.0%; height: 100.0%;"><b>Torre dell'orologio Chianciano</b><br><i>Chianciano Terme</i><br>Mappatura, percorsi, Culturing, podcast</div>`)[0];
+            popup_8b9daf709464d3a3664c3f1584ce82ba.setContent(html_aa90611b68239863123e7c653fdf2fb3);
+        
+
+        circle_marker_3f52601e3c9f9a85088ca569699ca854.bindPopup(popup_8b9daf709464d3a3664c3f1584ce82ba)
+        ;
+
+        
+    
+    
+            circle_marker_3f52601e3c9f9a85088ca569699ca854.bindTooltip(
+                `<div>
+                     Chianciano Terme
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_385763479ce530c09746849fdca2d488 = L.circleMarker(
+                [43.058895, 11.831563],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_053de441b01eccfa825d53598ac9736f);
+        
+    
+        var popup_d373a0ca83632adb7dc69d2dc83cd2d7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_33705d93c6520bfa70b83c2320001910 = $(`<div id="html_33705d93c6520bfa70b83c2320001910" style="width: 100.0%; height: 100.0%;"><b>Negozio giocattoli Chianciano</b><br><i>Chianciano Terme</i><br>Mappatura, percorsi, Culturing, Spazi interstiziali urbani,</div>`)[0];
+            popup_d373a0ca83632adb7dc69d2dc83cd2d7.setContent(html_33705d93c6520bfa70b83c2320001910);
+        
+
+        circle_marker_385763479ce530c09746849fdca2d488.bindPopup(popup_d373a0ca83632adb7dc69d2dc83cd2d7)
+        ;
+
+        
+    
+    
+            circle_marker_385763479ce530c09746849fdca2d488.bindTooltip(
+                `<div>
+                     Chianciano Terme
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_592e873cc23dda8d5ca0817d6bea64d1 = L.circleMarker(
+                [43.059025, 11.832103],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_053de441b01eccfa825d53598ac9736f);
+        
+    
+        var popup_fb887be6201d80c9ec060809a873e0f4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_82c0d3fa693723103c21c2d378f0a6cb = $(`<div id="html_82c0d3fa693723103c21c2d378f0a6cb" style="width: 100.0%; height: 100.0%;"><b>Museo collegiata Chianciano</b><br><i>Chianciano Terme</i><br>Mappatura, percorsi, Culturing, edificio storico. luogo culturale,</div>`)[0];
+            popup_fb887be6201d80c9ec060809a873e0f4.setContent(html_82c0d3fa693723103c21c2d378f0a6cb);
+        
+
+        circle_marker_592e873cc23dda8d5ca0817d6bea64d1.bindPopup(popup_fb887be6201d80c9ec060809a873e0f4)
+        ;
+
+        
+    
+    
+            circle_marker_592e873cc23dda8d5ca0817d6bea64d1.bindTooltip(
+                `<div>
+                     Chianciano Terme
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_59aa8f83c2ba9314172926e6fd838607 = L.circleMarker(
+                [43.05917, 11.8323345],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_053de441b01eccfa825d53598ac9736f);
+        
+    
+        var popup_4311fb73eb097b483c4597dd93e2ecb3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e09e1556674aa09e0fad435144c0b58a = $(`<div id="html_e09e1556674aa09e0fad435144c0b58a" style="width: 100.0%; height: 100.0%;"><b>Piazzetta dei Soldati Chianciano Terme..</b><br><i>Chianciano Terme</i><br>Mappatura, percorsi, Culturing, edificio storico. luogo culturale,</div>`)[0];
+            popup_4311fb73eb097b483c4597dd93e2ecb3.setContent(html_e09e1556674aa09e0fad435144c0b58a);
+        
+
+        circle_marker_59aa8f83c2ba9314172926e6fd838607.bindPopup(popup_4311fb73eb097b483c4597dd93e2ecb3)
+        ;
+
+        
+    
+    
+            circle_marker_59aa8f83c2ba9314172926e6fd838607.bindTooltip(
+                `<div>
+                     Chianciano Terme
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_1162678e0720e89324a5dbea536f799c = L.circleMarker(
+                [43.059147, 11.833281],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_053de441b01eccfa825d53598ac9736f);
+        
+    
+        var popup_f4322fab0096778a26c5633838901eef = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7430809daee0ae19b332a4106631df1d = $(`<div id="html_7430809daee0ae19b332a4106631df1d" style="width: 100.0%; height: 100.0%;"><b>Chiesa della Collegiata Chianciano</b><br><i>Chianciano Terme</i><br>Mappatura, percorsi, Culturing, edificio storico. luogo culturale,</div>`)[0];
+            popup_f4322fab0096778a26c5633838901eef.setContent(html_7430809daee0ae19b332a4106631df1d);
+        
+
+        circle_marker_1162678e0720e89324a5dbea536f799c.bindPopup(popup_f4322fab0096778a26c5633838901eef)
+        ;
+
+        
+    
+    
+            circle_marker_1162678e0720e89324a5dbea536f799c.bindTooltip(
+                `<div>
+                     Chianciano Terme
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_dac4cdfb33a0736079fbdc32703ebf25 = L.circleMarker(
+                [43.05889, 11.831827],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_053de441b01eccfa825d53598ac9736f);
+        
+    
+        var popup_b2367cc75a0cccc1a63f5b7a3af00097 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_62e6023b95fa210161b1a89971660bb3 = $(`<div id="html_62e6023b95fa210161b1a89971660bb3" style="width: 100.0%; height: 100.0%;"><b>Ass. la campana e traga Bonaventura Somma.</b><br><i>Chianciano Terme</i><br>Mappatura, percorsi, Culturing,</div>`)[0];
+            popup_b2367cc75a0cccc1a63f5b7a3af00097.setContent(html_62e6023b95fa210161b1a89971660bb3);
+        
+
+        circle_marker_dac4cdfb33a0736079fbdc32703ebf25.bindPopup(popup_b2367cc75a0cccc1a63f5b7a3af00097)
+        ;
+
+        
+    
+    
+            circle_marker_dac4cdfb33a0736079fbdc32703ebf25.bindTooltip(
+                `<div>
+                     Chianciano Terme
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_31e8a250cbf3147ed6fc5b8fe99d2427 = L.circleMarker(
+                [43.05814, 11.830275],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_053de441b01eccfa825d53598ac9736f);
+        
+    
+        var popup_6850c5370700a7d03154d8843e431fdd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_32ee0d2a198fd3d6d8de21d2fd587c5c = $(`<div id="html_32ee0d2a198fd3d6d8de21d2fd587c5c" style="width: 100.0%; height: 100.0%;"><b>Il Ritroivino Chianciano. progetto 2023 Altana intervista.</b><br><i>Chianciano Terme</i><br>Altana, Common Food, food, ViVa I,</div>`)[0];
+            popup_6850c5370700a7d03154d8843e431fdd.setContent(html_32ee0d2a198fd3d6d8de21d2fd587c5c);
+        
+
+        circle_marker_31e8a250cbf3147ed6fc5b8fe99d2427.bindPopup(popup_6850c5370700a7d03154d8843e431fdd)
+        ;
+
+        
+    
+    
+            circle_marker_31e8a250cbf3147ed6fc5b8fe99d2427.bindTooltip(
+                `<div>
+                     Chianciano Terme
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_22b24b8599dcbc360799ea577e358f46 = L.circleMarker(
+                [43.04234, 11.810633],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_053de441b01eccfa825d53598ac9736f);
+        
+    
+        var popup_6c2a9fbd7cad2bfade9ede4ef957b651 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_727985b96574375e0fbe2bc38926e2bf = $(`<div id="html_727985b96574375e0fbe2bc38926e2bf" style="width: 100.0%; height: 100.0%;"><b>Terme Silene di Chianciano Terme.</b><br><i>Chianciano Terme</i><br>Mappatura, percorsi, Culturing, Spazi interstiziali urbani,</div>`)[0];
+            popup_6c2a9fbd7cad2bfade9ede4ef957b651.setContent(html_727985b96574375e0fbe2bc38926e2bf);
+        
+
+        circle_marker_22b24b8599dcbc360799ea577e358f46.bindPopup(popup_6c2a9fbd7cad2bfade9ede4ef957b651)
+        ;
+
+        
+    
+    
+            circle_marker_22b24b8599dcbc360799ea577e358f46.bindTooltip(
+                `<div>
+                     Chianciano Terme
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_1d367a4b86c1ae94b1381fb4a0a24a15 = L.circleMarker(
+                [43.04231, 11.810854],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_053de441b01eccfa825d53598ac9736f);
+        
+    
+        var popup_de6be0165ab8fda48495b533645bfd9c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0f2e449c323ee93efc1a9a548ee959ef = $(`<div id="html_0f2e449c323ee93efc1a9a548ee959ef" style="width: 100.0%; height: 100.0%;"><b>Sabilimento Silene Chianciano Piazza Guglielmo Marconi</b><br><i>Chianciano Terme</i><br>Mappatura, percorsi, Culturing, Spazi interstiziali urbani,</div>`)[0];
+            popup_de6be0165ab8fda48495b533645bfd9c.setContent(html_0f2e449c323ee93efc1a9a548ee959ef);
+        
+
+        circle_marker_1d367a4b86c1ae94b1381fb4a0a24a15.bindPopup(popup_de6be0165ab8fda48495b533645bfd9c)
+        ;
+
+        
+    
+    
+            circle_marker_1d367a4b86c1ae94b1381fb4a0a24a15.bindTooltip(
+                `<div>
+                     Chianciano Terme
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_c3f617319fa825357d5a6ac93e06ee4b = L.circleMarker(
+                [43.04223, 11.810983],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_053de441b01eccfa825d53598ac9736f);
+        
+    
+        var popup_bec4a85970f7d97cfd3a4aeefb8b7088 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5f55eb379d1264dfc7bba46bd22fb605 = $(`<div id="html_5f55eb379d1264dfc7bba46bd22fb605" style="width: 100.0%; height: 100.0%;"><b>la residenza Chianciano.</b><br><i>Chianciano Terme</i><br>Mappatura, percorsi, Culturing, Spazi interstiziali urbani,</div>`)[0];
+            popup_bec4a85970f7d97cfd3a4aeefb8b7088.setContent(html_5f55eb379d1264dfc7bba46bd22fb605);
+        
+
+        circle_marker_c3f617319fa825357d5a6ac93e06ee4b.bindPopup(popup_bec4a85970f7d97cfd3a4aeefb8b7088)
+        ;
+
+        
+    
+    
+            circle_marker_c3f617319fa825357d5a6ac93e06ee4b.bindTooltip(
+                `<div>
+                     Chianciano Terme
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_9a0e2c83818ff2ad89c2ed10249ad6f1 = L.circleMarker(
+                [43.042103, 11.810881],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_053de441b01eccfa825d53598ac9736f);
+        
+    
+        var popup_7a1e9049027bf7dc5b25be269174f7e1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1c6f009d98fce7eb2640bae97f0760bc = $(`<div id="html_1c6f009d98fce7eb2640bae97f0760bc" style="width: 100.0%; height: 100.0%;"><b>la residenza 2 appartamenti e attività commerciali.</b><br><i>Chianciano Terme</i><br>Mappatura, percorsi, Culturing, Spazi interstiziali urbani,</div>`)[0];
+            popup_7a1e9049027bf7dc5b25be269174f7e1.setContent(html_1c6f009d98fce7eb2640bae97f0760bc);
+        
+
+        circle_marker_9a0e2c83818ff2ad89c2ed10249ad6f1.bindPopup(popup_7a1e9049027bf7dc5b25be269174f7e1)
+        ;
+
+        
+    
+    
+            circle_marker_9a0e2c83818ff2ad89c2ed10249ad6f1.bindTooltip(
+                `<div>
+                     Chianciano Terme
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_d8dc1345349564bbbc5dad33ad348c12 = L.circleMarker(
+                [43.041893, 11.811698],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_053de441b01eccfa825d53598ac9736f);
+        
+    
+        var popup_e62c8e899b1395a4b7cd937d40026c4c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b1e9912818b5ba79d90e0edee5180fc6 = $(`<div id="html_b1e9912818b5ba79d90e0edee5180fc6" style="width: 100.0%; height: 100.0%;"><b>ex albergo</b><br><i>Chianciano Terme</i><br>Mappatura, percorsi, Culturing, Spazi interstiziali urbani,</div>`)[0];
+            popup_e62c8e899b1395a4b7cd937d40026c4c.setContent(html_b1e9912818b5ba79d90e0edee5180fc6);
+        
+
+        circle_marker_d8dc1345349564bbbc5dad33ad348c12.bindPopup(popup_e62c8e899b1395a4b7cd937d40026c4c)
+        ;
+
+        
+    
+    
+            circle_marker_d8dc1345349564bbbc5dad33ad348c12.bindTooltip(
+                `<div>
+                     Chianciano Terme
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_f69f1f2af6c2eac64a8956a57868f128 = L.circleMarker(
+                [43.041702, 11.811638],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_053de441b01eccfa825d53598ac9736f);
+        
+    
+        var popup_d186c344bfeb143f8aaa467fc20e4148 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_64e79688a474dffb05da37a3318711f4 = $(`<div id="html_64e79688a474dffb05da37a3318711f4" style="width: 100.0%; height: 100.0%;"><b>ex albergo Chianciano. secondo piano.</b><br><i>Chianciano Terme</i><br>Mappatura, percorsi, Culturing, Spazi interstiziali urbani,</div>`)[0];
+            popup_d186c344bfeb143f8aaa467fc20e4148.setContent(html_64e79688a474dffb05da37a3318711f4);
+        
+
+        circle_marker_f69f1f2af6c2eac64a8956a57868f128.bindPopup(popup_d186c344bfeb143f8aaa467fc20e4148)
+        ;
+
+        
+    
+    
+            circle_marker_f69f1f2af6c2eac64a8956a57868f128.bindTooltip(
+                `<div>
+                     Chianciano Terme
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_c4a1848fdafdf0a9c4d49d32daae95d9 = L.circleMarker(
+                [43.04172, 11.81181],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_053de441b01eccfa825d53598ac9736f);
+        
+    
+        var popup_7b6f1baaca0f4c7b7eed097ec6eb29e2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b9bebb10b7184a0d9b2bb80e1ace5fad = $(`<div id="html_b9bebb10b7184a0d9b2bb80e1ace5fad" style="width: 100.0%; height: 100.0%;"><b>idem 3 piano</b><br><i>Chianciano Terme</i><br>Mappatura, percorsi, Culturing, Spazi interstiziali urbani,</div>`)[0];
+            popup_7b6f1baaca0f4c7b7eed097ec6eb29e2.setContent(html_b9bebb10b7184a0d9b2bb80e1ace5fad);
+        
+
+        circle_marker_c4a1848fdafdf0a9c4d49d32daae95d9.bindPopup(popup_7b6f1baaca0f4c7b7eed097ec6eb29e2)
+        ;
+
+        
+    
+    
+            circle_marker_c4a1848fdafdf0a9c4d49d32daae95d9.bindTooltip(
+                `<div>
+                     Chianciano Terme
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_0c5b14108df78d0e6525e385f44015ca = L.circleMarker(
+                [43.04183, 11.81193],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_053de441b01eccfa825d53598ac9736f);
+        
+    
+        var popup_6509e4e1ba5ed11d34787948ddb8ab29 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bdb89a0c091e927d088f43699fa827f9 = $(`<div id="html_bdb89a0c091e927d088f43699fa827f9" style="width: 100.0%; height: 100.0%;"><b>ex albergo 3</b><br><i>Chianciano Terme</i><br>Mappatura, percorsi, Culturing, Spazi interstiziali urbani,</div>`)[0];
+            popup_6509e4e1ba5ed11d34787948ddb8ab29.setContent(html_bdb89a0c091e927d088f43699fa827f9);
+        
+
+        circle_marker_0c5b14108df78d0e6525e385f44015ca.bindPopup(popup_6509e4e1ba5ed11d34787948ddb8ab29)
+        ;
+
+        
+    
+    
+            circle_marker_0c5b14108df78d0e6525e385f44015ca.bindTooltip(
+                `<div>
+                     Chianciano Terme
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_1b781666e31f03c7b53173ec42afad8f = L.circleMarker(
+                [43.04221, 11.810794],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_053de441b01eccfa825d53598ac9736f);
+        
+    
+        var popup_de6fa8d1c6f53a136e8f059b06836aaf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a9bf1d20dd5183d98844b9f63915a62f = $(`<div id="html_a9bf1d20dd5183d98844b9f63915a62f" style="width: 100.0%; height: 100.0%;"><b>Area verde vicino alle terme Silene</b><br><i>Chianciano Terme</i><br>Mappatura, percorsi, Culturing, Spazi interstiziali urbani, terzo paesaggio,</div>`)[0];
+            popup_de6fa8d1c6f53a136e8f059b06836aaf.setContent(html_a9bf1d20dd5183d98844b9f63915a62f);
+        
+
+        circle_marker_1b781666e31f03c7b53173ec42afad8f.bindPopup(popup_de6fa8d1c6f53a136e8f059b06836aaf)
+        ;
+
+        
+    
+    
+            circle_marker_1b781666e31f03c7b53173ec42afad8f.bindTooltip(
+                `<div>
+                     Chianciano Terme
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_f2b0098faee6e393be8b8f20fa6c83a8 = L.circleMarker(
+                [43.0573, 11.827659],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_053de441b01eccfa825d53598ac9736f);
+        
+    
+        var popup_1542185964efb57f7b2d911b8f46e447 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e8c41bfb53b14c0980daef3cc4ca96af = $(`<div id="html_e8c41bfb53b14c0980daef3cc4ca96af" style="width: 100.0%; height: 100.0%;"><b>bocciofila Chianciano</b><br><i>Chianciano Terme</i><br>Mappatura, percorsi, Culturing, luoghi di socialità, terza età, fotografia,</div>`)[0];
+            popup_1542185964efb57f7b2d911b8f46e447.setContent(html_e8c41bfb53b14c0980daef3cc4ca96af);
+        
+
+        circle_marker_f2b0098faee6e393be8b8f20fa6c83a8.bindPopup(popup_1542185964efb57f7b2d911b8f46e447)
+        ;
+
+        
+    
+    
+            circle_marker_f2b0098faee6e393be8b8f20fa6c83a8.bindTooltip(
+                `<div>
+                     Chianciano Terme
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_11232149d66559eea7dfc2904e782704 = L.circleMarker(
+                [43.071053, 11.816105],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_053de441b01eccfa825d53598ac9736f);
+        
+    
+        var popup_163bbcf5dd2c83ee2fc53f9be02b6361 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e60c62147f0f89e070eae91ec01adb97 = $(`<div id="html_e60c62147f0f89e070eae91ec01adb97" style="width: 100.0%; height: 100.0%;"><b>Olmaia craft beer</b><br><i>Chianciano Terme</i><br>Mappatura, percorsi, Culturing, luoghi di socialità, pubblici misti, food, beverages, musica, vocazione culturale e industriale,</div>`)[0];
+            popup_163bbcf5dd2c83ee2fc53f9be02b6361.setContent(html_e60c62147f0f89e070eae91ec01adb97);
+        
+
+        circle_marker_11232149d66559eea7dfc2904e782704.bindPopup(popup_163bbcf5dd2c83ee2fc53f9be02b6361)
+        ;
+
+        
+    
+    
+            circle_marker_11232149d66559eea7dfc2904e782704.bindTooltip(
+                `<div>
+                     Chianciano Terme
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_9b2bc5d77b7ce31bdf9e345e39b1dcc8 = L.circleMarker(
+                [43.11169, 11.843702],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_053de441b01eccfa825d53598ac9736f);
+        
+    
+        var popup_bbbbcf8ad0a460580493280536e00b40 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9f2524ba09d208bf715e690a0549d61e = $(`<div id="html_9f2524ba09d208bf715e690a0549d61e" style="width: 100.0%; height: 100.0%;"><b>Via Pian delle Noci</b><br><i>Montepulciano</i><br>Mappatura, percorsi, Culturing,</div>`)[0];
+            popup_bbbbcf8ad0a460580493280536e00b40.setContent(html_9f2524ba09d208bf715e690a0549d61e);
+        
+
+        circle_marker_9b2bc5d77b7ce31bdf9e345e39b1dcc8.bindPopup(popup_bbbbcf8ad0a460580493280536e00b40)
+        ;
+
+        
+    
+    
+            circle_marker_9b2bc5d77b7ce31bdf9e345e39b1dcc8.bindTooltip(
+                `<div>
+                     Montepulciano
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_9d246dbdfb4bb3a4ea16436d8924ade4 = L.circleMarker(
+                [43.1558, 11.892684],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_053de441b01eccfa825d53598ac9736f);
+        
+    
+        var popup_97ffc24e8cab15ddfee328a68f32c95f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6e1b9b6010d20bdebec84fc0122aa898 = $(`<div id="html_6e1b9b6010d20bdebec84fc0122aa898" style="width: 100.0%; height: 100.0%;"><b>attraversamento cavalcavia ferroviario</b><br><i>Montepulciano</i><br>Mappatura, percorsi, Culturing, podcast, Opificio Badesse,</div>`)[0];
+            popup_97ffc24e8cab15ddfee328a68f32c95f.setContent(html_6e1b9b6010d20bdebec84fc0122aa898);
+        
+
+        circle_marker_9d246dbdfb4bb3a4ea16436d8924ade4.bindPopup(popup_97ffc24e8cab15ddfee328a68f32c95f)
+        ;
+
+        
+    
+    
+            circle_marker_9d246dbdfb4bb3a4ea16436d8924ade4.bindTooltip(
+                `<div>
+                     Montepulciano
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_4dbda50d6f81132400ea643572c3298c = L.circleMarker(
+                [43.11193, 11.870746],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_053de441b01eccfa825d53598ac9736f);
+        
+    
+        var popup_d2fcee97ecc0df4ba0df5ae2a27fca44 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_307bfb34e2f51a93f77145b666921ec2 = $(`<div id="html_307bfb34e2f51a93f77145b666921ec2" style="width: 100.0%; height: 100.0%;"><b>Punto ristoro stazione di servizio Acquaviva.</b><br><i>Montepulciano</i><br>Altana, Culturing, podcast, Opificio Badesse, food,</div>`)[0];
+            popup_d2fcee97ecc0df4ba0df5ae2a27fca44.setContent(html_307bfb34e2f51a93f77145b666921ec2);
+        
+
+        circle_marker_4dbda50d6f81132400ea643572c3298c.bindPopup(popup_d2fcee97ecc0df4ba0df5ae2a27fca44)
+        ;
+
+        
+    
+    
+            circle_marker_4dbda50d6f81132400ea643572c3298c.bindTooltip(
+                `<div>
+                     Montepulciano
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_b29c882c4e86522a763a331d8e939c51 = L.circleMarker(
+                [43.111724, 11.843641],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_053de441b01eccfa825d53598ac9736f);
+        
+    
+        var popup_323ea857e2ce9fdca539d18ee09324ea = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5d2d1980ba39c22fbc01b778e87d6fea = $(`<div id="html_5d2d1980ba39c22fbc01b778e87d6fea" style="width: 100.0%; height: 100.0%;"><b>Capannone progetto Metamorfosi IISS Poliziano</b><br><i>Montepulciano</i><br>Mappatura, Culturing,Altana, IISS Poliziano, 4B LS, AI, Video, progetti,</div>`)[0];
+            popup_323ea857e2ce9fdca539d18ee09324ea.setContent(html_5d2d1980ba39c22fbc01b778e87d6fea);
+        
+
+        circle_marker_b29c882c4e86522a763a331d8e939c51.bindPopup(popup_323ea857e2ce9fdca539d18ee09324ea)
+        ;
+
+        
+    
+    
+            circle_marker_b29c882c4e86522a763a331d8e939c51.bindTooltip(
+                `<div>
+                     Montepulciano
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_97fda0cfc53cc1bcf11076eb887c42ca = L.circleMarker(
+                [43.098033, 11.899374],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_053de441b01eccfa825d53598ac9736f);
+        
+    
+        var popup_069944e9907f17305d7fd323cf0c1816 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_550d96ce7d5c132d9c0520a77ee336e5 = $(`<div id="html_550d96ce7d5c132d9c0520a77ee336e5" style="width: 100.0%; height: 100.0%;"><b>Costruzione Leopoldina Podere S. Ferdinando II</b><br><i>Montepulciano</i><br>Mappatura, percorsi, Culturing, edificio storico, leopoldina, Altana, Lo stato delle cose, fotografia, architettura,</div>`)[0];
+            popup_069944e9907f17305d7fd323cf0c1816.setContent(html_550d96ce7d5c132d9c0520a77ee336e5);
+        
+
+        circle_marker_97fda0cfc53cc1bcf11076eb887c42ca.bindPopup(popup_069944e9907f17305d7fd323cf0c1816)
+        ;
+
+        
+    
+    
+            circle_marker_97fda0cfc53cc1bcf11076eb887c42ca.bindTooltip(
+                `<div>
+                     Montepulciano
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_1f28026aeb4deadd4e351cacd8885e15 = L.circleMarker(
+                [43.101604, 11.90645],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_053de441b01eccfa825d53598ac9736f);
+        
+    
+        var popup_22dff150877746e5fc908482d798a817 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e9849bbbe764f0395bd1d7911560625f = $(`<div id="html_e9849bbbe764f0395bd1d7911560625f" style="width: 100.0%; height: 100.0%;"><b>Lungo Via del Lago (Montepulciano), set per fotografie di Marco Ventura.</b><br><i>Montepulciano</i><br>Mappatura, percorsi, Culturing, edificio industriale, Altana, Lo stato delle cose, fotografia, architettura,</div>`)[0];
+            popup_22dff150877746e5fc908482d798a817.setContent(html_e9849bbbe764f0395bd1d7911560625f);
+        
+
+        circle_marker_1f28026aeb4deadd4e351cacd8885e15.bindPopup(popup_22dff150877746e5fc908482d798a817)
+        ;
+
+        
+    
+    
+            circle_marker_1f28026aeb4deadd4e351cacd8885e15.bindTooltip(
+                `<div>
+                     Montepulciano
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_215198e385919b969c90d7ae74edc113 = L.circleMarker(
+                [43.114962, 11.90718],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_053de441b01eccfa825d53598ac9736f);
+        
+    
+        var popup_8b657ea7d3ae612718bc58f1f56bc600 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7a3666022cae677158f75ebc01dbdfdc = $(`<div id="html_7a3666022cae677158f75ebc01dbdfdc" style="width: 100.0%; height: 100.0%;"><b>Costruzione probabilmente dell'epoca Leopoldina,</b><br><i>Montepulciano</i><br>Mappatura, percorsi, Culturing, edificio storico, leopoldina, Altana, Lo stato delle cose, fotografia, architettura,</div>`)[0];
+            popup_8b657ea7d3ae612718bc58f1f56bc600.setContent(html_7a3666022cae677158f75ebc01dbdfdc);
+        
+
+        circle_marker_215198e385919b969c90d7ae74edc113.bindPopup(popup_8b657ea7d3ae612718bc58f1f56bc600)
+        ;
+
+        
+    
+    
+            circle_marker_215198e385919b969c90d7ae74edc113.bindTooltip(
+                `<div>
+                     Montepulciano
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_0a5143eca4cb02c6975fe8b88143728f = L.circleMarker(
+                [43.03564, 11.956095],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_053de441b01eccfa825d53598ac9736f);
+        
+    
+        var popup_51bed340285356db7cd6fa6254a77f8b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_92aaa3e1639a92f242b559a14879e937 = $(`<div id="html_92aaa3e1639a92f242b559a14879e937" style="width: 100.0%; height: 100.0%;"><b>Palme in Valdichiana 02.</b><br><i>Chiusi</i><br>Mappatura, palme, Culturing, spazi "altri",</div>`)[0];
+            popup_51bed340285356db7cd6fa6254a77f8b.setContent(html_92aaa3e1639a92f242b559a14879e937);
+        
+
+        circle_marker_0a5143eca4cb02c6975fe8b88143728f.bindPopup(popup_51bed340285356db7cd6fa6254a77f8b)
+        ;
+
+        
+    
+    
+            circle_marker_0a5143eca4cb02c6975fe8b88143728f.bindTooltip(
+                `<div>
+                     Chiusi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_f717cbf1c2eee63c47a9472cdb884a58 = L.circleMarker(
+                [43.02803, 11.962067],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_053de441b01eccfa825d53598ac9736f);
+        
+    
+        var popup_4d52d8a5a338e47105a9ef42c354bf25 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cfc2ca7123cb41aacdc3ea973364892a = $(`<div id="html_cfc2ca7123cb41aacdc3ea973364892a" style="width: 100.0%; height: 100.0%;"><b>Palme in Valdichiana 03.</b><br><i>Chiusi</i><br>Mappatura, palme, Culturing, spazi "altri",</div>`)[0];
+            popup_4d52d8a5a338e47105a9ef42c354bf25.setContent(html_cfc2ca7123cb41aacdc3ea973364892a);
+        
+
+        circle_marker_f717cbf1c2eee63c47a9472cdb884a58.bindPopup(popup_4d52d8a5a338e47105a9ef42c354bf25)
+        ;
+
+        
+    
+    
+            circle_marker_f717cbf1c2eee63c47a9472cdb884a58.bindTooltip(
+                `<div>
+                     Chiusi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_0a4081b076f4695b12ef669979b08b76 = L.circleMarker(
+                [43.01349, 11.946926],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_053de441b01eccfa825d53598ac9736f);
+        
+    
+        var popup_e153cd19f6c7a5211a32a654f9d5a61e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_836c559ce9fda2f327855f0919a883e2 = $(`<div id="html_836c559ce9fda2f327855f0919a883e2" style="width: 100.0%; height: 100.0%;"><b>Abitazione di aspetto insolito lungo via Cassia Aurelia II</b><br><i>Chiusi</i><br>Mappatura, percorsi, Culturing, edificio storico, architettura,</div>`)[0];
+            popup_e153cd19f6c7a5211a32a654f9d5a61e.setContent(html_836c559ce9fda2f327855f0919a883e2);
+        
+
+        circle_marker_0a4081b076f4695b12ef669979b08b76.bindPopup(popup_e153cd19f6c7a5211a32a654f9d5a61e)
+        ;
+
+        
+    
+    
+            circle_marker_0a4081b076f4695b12ef669979b08b76.bindTooltip(
+                `<div>
+                     Chiusi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_37f98c4824e858fa459ff61f80f1f7d4 = L.circleMarker(
+                [43.13071003, 11.870368],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_053de441b01eccfa825d53598ac9736f);
+        
+    
+        var popup_42e2073efaae1171ae2d5d8985f9ebb1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_abecf41cc543df809c3d76a7a4b7367c = $(`<div id="html_abecf41cc543df809c3d76a7a4b7367c" style="width: 100.0%; height: 100.0%;"><b>Salviamo i campi agricoli </b><br><i>Montepulciano</i><br>Altana, IISS Poliziano, 4B LS, AI, Video, progetti,</div>`)[0];
+            popup_42e2073efaae1171ae2d5d8985f9ebb1.setContent(html_abecf41cc543df809c3d76a7a4b7367c);
+        
+
+        circle_marker_37f98c4824e858fa459ff61f80f1f7d4.bindPopup(popup_42e2073efaae1171ae2d5d8985f9ebb1)
+        ;
+
+        
+    
+    
+            circle_marker_37f98c4824e858fa459ff61f80f1f7d4.bindTooltip(
+                `<div>
+                     Montepulciano
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_2f489c5d86c5453e9f339e4ca2981370 = L.circleMarker(
+                [43.11134503, 11.843881],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_053de441b01eccfa825d53598ac9736f);
+        
+    
+        var popup_6b0cbc2d8afde15b8d322bac38176ba3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b997f169d999e62a75c1a26f3fc4ad22 = $(`<div id="html_b997f169d999e62a75c1a26f3fc4ad22" style="width: 100.0%; height: 100.0%;"><b>Metamorfosi</b><br><i>Montepulciano</i><br>Altana, IISS Poliziano, 4B LS, AI, Video, progetti,</div>`)[0];
+            popup_6b0cbc2d8afde15b8d322bac38176ba3.setContent(html_b997f169d999e62a75c1a26f3fc4ad22);
+        
+
+        circle_marker_2f489c5d86c5453e9f339e4ca2981370.bindPopup(popup_6b0cbc2d8afde15b8d322bac38176ba3)
+        ;
+
+        
+    
+    
+            circle_marker_2f489c5d86c5453e9f339e4ca2981370.bindTooltip(
+                `<div>
+                     Montepulciano
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_9bd0031b1e3ca84fee5d652c95e1b1eb = L.circleMarker(
+                [43.14259295, 11.88836137],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_053de441b01eccfa825d53598ac9736f);
+        
+    
+        var popup_eb00ba01d88f4ddf36cc7bf241899242 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ed845a5a04bdd0d7061d5d75372847ac = $(`<div id="html_ed845a5a04bdd0d7061d5d75372847ac" style="width: 100.0%; height: 100.0%;"><b>Via La Fila: dal passato al futuro</b><br><i>Montepulciano</i><br>Altana, IISS Poliziano, 4B LS, AI, Video, progetti,</div>`)[0];
+            popup_eb00ba01d88f4ddf36cc7bf241899242.setContent(html_ed845a5a04bdd0d7061d5d75372847ac);
+        
+
+        circle_marker_9bd0031b1e3ca84fee5d652c95e1b1eb.bindPopup(popup_eb00ba01d88f4ddf36cc7bf241899242)
+        ;
+
+        
+    
+    
+            circle_marker_9bd0031b1e3ca84fee5d652c95e1b1eb.bindTooltip(
+                `<div>
+                     Montepulciano
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_1e6fba33dd19cf81791cc94888520cb5 = L.circleMarker(
+                [43.13111033, 11.828594],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_053de441b01eccfa825d53598ac9736f);
+        
+    
+        var popup_9efcb887bd19d1fe955adf0492fa0c85 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a2883664b7e81ee4f425d257b2f9f5f5 = $(`<div id="html_a2883664b7e81ee4f425d257b2f9f5f5" style="width: 100.0%; height: 100.0%;"><b>Parco giochi "Calzini Spaiati"</b><br><i>Montepulciano</i><br>Altana, IISS Poliziano, 4B LS, AI, Video, progetti,</div>`)[0];
+            popup_9efcb887bd19d1fe955adf0492fa0c85.setContent(html_a2883664b7e81ee4f425d257b2f9f5f5);
+        
+
+        circle_marker_1e6fba33dd19cf81791cc94888520cb5.bindPopup(popup_9efcb887bd19d1fe955adf0492fa0c85)
+        ;
+
+        
+    
+    
+            circle_marker_1e6fba33dd19cf81791cc94888520cb5.bindTooltip(
+                `<div>
+                     Montepulciano
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_9e5acc34a67c90b1b42e5f60daa71b7f = L.circleMarker(
+                [43.09857263, 11.7910282],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_053de441b01eccfa825d53598ac9736f);
+        
+    
+        var popup_c46d501ec06dc465610325101898bf3d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8a2978cd616e1f924f9e5d7e2800df9b = $(`<div id="html_8a2978cd616e1f924f9e5d7e2800df9b" style="width: 100.0%; height: 100.0%;"><b>School Resort</b><br><i>Montepulciano</i><br>Altana, IISS Poliziano, 4B LS, AI, Video, progetti,</div>`)[0];
+            popup_c46d501ec06dc465610325101898bf3d.setContent(html_8a2978cd616e1f924f9e5d7e2800df9b);
+        
+
+        circle_marker_9e5acc34a67c90b1b42e5f60daa71b7f.bindPopup(popup_c46d501ec06dc465610325101898bf3d)
+        ;
+
+        
+    
+    
+            circle_marker_9e5acc34a67c90b1b42e5f60daa71b7f.bindTooltip(
+                `<div>
+                     Montepulciano
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_ccb08db6fc29150d36917c9547ef12ac = L.circleMarker(
+                [43.05806089, 11.82662597],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_053de441b01eccfa825d53598ac9736f);
+        
+    
+        var popup_da9ffe45ad04901ffca23300852950fa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5ef3db17290d7f7e2faeda81ffc42b87 = $(`<div id="html_5ef3db17290d7f7e2faeda81ffc42b87" style="width: 100.0%; height: 100.0%;"><b>Da aule a negozi</b><br><i>Chianciano Terme</i><br>Altana, IISS Poliziano, 4B LS, AI, Video, progetti,</div>`)[0];
+            popup_da9ffe45ad04901ffca23300852950fa.setContent(html_5ef3db17290d7f7e2faeda81ffc42b87);
+        
+
+        circle_marker_ccb08db6fc29150d36917c9547ef12ac.bindPopup(popup_da9ffe45ad04901ffca23300852950fa)
+        ;
+
+        
+    
+    
+            circle_marker_ccb08db6fc29150d36917c9547ef12ac.bindTooltip(
+                `<div>
+                     Chianciano Terme
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_26a72e93164045394ca95a825f826820 = L.circleMarker(
+                [43.08085423, 11.6738691],
+                {"bubblingMouseEvents": true, "color": "darkgreen", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkgreen", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_053de441b01eccfa825d53598ac9736f);
+        
+    
+        var popup_11717e048cbe292b672cdf135731e422 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7de92fefdd1d3adf527dcca39b6c2eeb = $(`<div id="html_7de92fefdd1d3adf527dcca39b6c2eeb" style="width: 100.0%; height: 100.0%;"><b>Recupero del territorio: Il parco giochi</b><br><i>Pienza</i><br>Altana, IISS Poliziano, 4B LS, AI, Video, progetti,</div>`)[0];
+            popup_11717e048cbe292b672cdf135731e422.setContent(html_7de92fefdd1d3adf527dcca39b6c2eeb);
+        
+
+        circle_marker_26a72e93164045394ca95a825f826820.bindPopup(popup_11717e048cbe292b672cdf135731e422)
+        ;
+
+        
+    
+    
+            circle_marker_26a72e93164045394ca95a825f826820.bindTooltip(
+                `<div>
+                     Pienza
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_12758c55df5c3a8172b04f69f0680faf = L.circleMarker(
+                [43.04074203, 11.8174004],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_053de441b01eccfa825d53598ac9736f);
+        
+    
+        var popup_81eb7c750299f0039ad12f5f00e6831f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bbdb7428147d5e621951ec6d97aab2f1 = $(`<div id="html_bbdb7428147d5e621951ec6d97aab2f1" style="width: 100.0%; height: 100.0%;"><b>Da Parco delle Terme a Cinema pubblico</b><br><i>Chianciano Terme</i><br>Altana, IISS Poliziano, 4B LS, AI, Video, progetti,</div>`)[0];
+            popup_81eb7c750299f0039ad12f5f00e6831f.setContent(html_bbdb7428147d5e621951ec6d97aab2f1);
+        
+
+        circle_marker_12758c55df5c3a8172b04f69f0680faf.bindPopup(popup_81eb7c750299f0039ad12f5f00e6831f)
+        ;
+
+        
+    
+    
+            circle_marker_12758c55df5c3a8172b04f69f0680faf.bindTooltip(
+                `<div>
+                     Chianciano Terme
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_f055059b33d362e520d24b5b7462e9b5 = L.circleMarker(
+                [43.09999403, 11.82262],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_053de441b01eccfa825d53598ac9736f);
+        
+    
+        var popup_f1cd372964020b214cd3b4c106f1f605 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_89d15ad15b35dea4e7d270d6f74403f0 = $(`<div id="html_89d15ad15b35dea4e7d270d6f74403f0" style="width: 100.0%; height: 100.0%;"><b>Skate & Create</b><br><i>Montepulciano</i><br>Altana, IISS Poliziano, 4B LS, AI, Video, progetti,</div>`)[0];
+            popup_f1cd372964020b214cd3b4c106f1f605.setContent(html_89d15ad15b35dea4e7d270d6f74403f0);
+        
+
+        circle_marker_f055059b33d362e520d24b5b7462e9b5.bindPopup(popup_f1cd372964020b214cd3b4c106f1f605)
+        ;
+
+        
+    
+    
+            circle_marker_f055059b33d362e520d24b5b7462e9b5.bindTooltip(
+                `<div>
+                     Montepulciano
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_4e34907a48898e00a7fa2af97eb704a4 = L.circleMarker(
+                [43.04403453, 11.8152904],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_053de441b01eccfa825d53598ac9736f);
+        
+    
+        var popup_b3c19791fdc4df8598a714aba98a8222 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6452fbf788b06400f516b69939dfe74c = $(`<div id="html_6452fbf788b06400f516b69939dfe74c" style="width: 100.0%; height: 100.0%;"><b>Da un hotel abbandonato a un teatro moderno</b><br><i>Chianciano Terme</i><br>Altana, IISS Poliziano, 4B LS, AI, Video, progetti,</div>`)[0];
+            popup_b3c19791fdc4df8598a714aba98a8222.setContent(html_6452fbf788b06400f516b69939dfe74c);
+        
+
+        circle_marker_4e34907a48898e00a7fa2af97eb704a4.bindPopup(popup_b3c19791fdc4df8598a714aba98a8222)
+        ;
+
+        
+    
+    
+            circle_marker_4e34907a48898e00a7fa2af97eb704a4.bindTooltip(
+                `<div>
+                     Chianciano Terme
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_ae83758aff9230e27c90598e241bd96a = L.circleMarker(
+                [43.17049383, 11.7775728],
+                {"bubblingMouseEvents": true, "color": "lightblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_053de441b01eccfa825d53598ac9736f);
+        
+    
+        var popup_15dbd4f53e64dfbb5a0906e12c4e21d4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7d97ac8e48aca81f882c0cdeeb212f8e = $(`<div id="html_7d97ac8e48aca81f882c0cdeeb212f8e" style="width: 100.0%; height: 100.0%;"><b>Le tue vacanze in camper!</b><br><i>Torrita di Siena</i><br>Altana, IISS Poliziano, 4B LS, AI, Video, progetti,</div>`)[0];
+            popup_15dbd4f53e64dfbb5a0906e12c4e21d4.setContent(html_7d97ac8e48aca81f882c0cdeeb212f8e);
+        
+
+        circle_marker_ae83758aff9230e27c90598e241bd96a.bindPopup(popup_15dbd4f53e64dfbb5a0906e12c4e21d4)
+        ;
+
+        
+    
+    
+            circle_marker_ae83758aff9230e27c90598e241bd96a.bindTooltip(
+                `<div>
+                     Torrita di Siena
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_0ffafb262215b41e9cd980a7924fb5ed = L.circleMarker(
+                [43.09588133, 11.7875857],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_053de441b01eccfa825d53598ac9736f);
+        
+    
+        var popup_351cb9866a740eb9ea8df3d9745e80b5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_009519d474d43ff93967ff768ce3a544 = $(`<div id="html_009519d474d43ff93967ff768ce3a544" style="width: 100.0%; height: 100.0%;"><b>Riqualificazione Piazza Pietro Nenni</b><br><i>Montepulciano</i><br>Altana, IISS Poliziano, 4B LS, AI, Video, progetti,</div>`)[0];
+            popup_351cb9866a740eb9ea8df3d9745e80b5.setContent(html_009519d474d43ff93967ff768ce3a544);
+        
+
+        circle_marker_0ffafb262215b41e9cd980a7924fb5ed.bindPopup(popup_351cb9866a740eb9ea8df3d9745e80b5)
+        ;
+
+        
+    
+    
+            circle_marker_0ffafb262215b41e9cd980a7924fb5ed.bindTooltip(
+                `<div>
+                     Montepulciano
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_d6d03adf287fcd4e90445befdf860d10 = L.circleMarker(
+                [43.15770773, 11.8731757],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_053de441b01eccfa825d53598ac9736f);
+        
+    
+        var popup_88c6545b31b7e5d9b90406da3f6c1fb6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4cba81cacf4db730583c2686c23ff0fe = $(`<div id="html_4cba81cacf4db730583c2686c23ff0fe" style="width: 100.0%; height: 100.0%;"><b>Cantina Pili - Montepulciano</b><br><i>Montepulciano</i><br>Altana, IISS Poliziano, 4B LS, AI, Video, progetti,</div>`)[0];
+            popup_88c6545b31b7e5d9b90406da3f6c1fb6.setContent(html_4cba81cacf4db730583c2686c23ff0fe);
+        
+
+        circle_marker_d6d03adf287fcd4e90445befdf860d10.bindPopup(popup_88c6545b31b7e5d9b90406da3f6c1fb6)
+        ;
+
+        
+    
+    
+            circle_marker_d6d03adf287fcd4e90445befdf860d10.bindTooltip(
+                `<div>
+                     Montepulciano
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_70686b451bc4c0760a9a044f51703144 = L.circleMarker(
+                [43.12408023, 11.7742827],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_053de441b01eccfa825d53598ac9736f);
+        
+    
+        var popup_8945b4bdbe753d41d80db85eefb5e617 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_39de790303b49d9c4c335736ca2872b3 = $(`<div id="html_39de790303b49d9c4c335736ca2872b3" style="width: 100.0%; height: 100.0%;"><b>Ristrutturazione di un podere toscano</b><br><i>Montepulciano</i><br>Altana, IISS Poliziano, 4B LS, AI, Video, progetti,</div>`)[0];
+            popup_8945b4bdbe753d41d80db85eefb5e617.setContent(html_39de790303b49d9c4c335736ca2872b3);
+        
+
+        circle_marker_70686b451bc4c0760a9a044f51703144.bindPopup(popup_8945b4bdbe753d41d80db85eefb5e617)
+        ;
+
+        
+    
+    
+            circle_marker_70686b451bc4c0760a9a044f51703144.bindTooltip(
+                `<div>
+                     Montepulciano
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_5760393197fbf89d8019abe62ef9192b = L.circleMarker(
+                [43.16537163, 11.8649917],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_053de441b01eccfa825d53598ac9736f);
+        
+    
+        var popup_aa9b71fe2e934b6880d82a5c315d3109 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ae16cdcf89cb55bcc7fde8f58d0ee8b5 = $(`<div id="html_ae16cdcf89cb55bcc7fde8f58d0ee8b5" style="width: 100.0%; height: 100.0%;"><b>Edilizia innovativa su una Leopoldina in Valdichiana</b><br><i>Montepulciano</i><br>Altana, IISS Poliziano, 4B LS, AI, Video, progetti,</div>`)[0];
+            popup_aa9b71fe2e934b6880d82a5c315d3109.setContent(html_ae16cdcf89cb55bcc7fde8f58d0ee8b5);
+        
+
+        circle_marker_5760393197fbf89d8019abe62ef9192b.bindPopup(popup_aa9b71fe2e934b6880d82a5c315d3109)
+        ;
+
+        
+    
+    
+            circle_marker_5760393197fbf89d8019abe62ef9192b.bindTooltip(
+                `<div>
+                     Montepulciano
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_d1de4d94a2fcb459db2b1900d1ea2a11 = L.circleMarker(
+                [43.21172873, 11.7676489],
+                {"bubblingMouseEvents": true, "color": "pink", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_053de441b01eccfa825d53598ac9736f);
+        
+    
+        var popup_e4896921d11fdf22735f165a96612e73 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6957fe00a50e0d23b5577ab1d2530805 = $(`<div id="html_6957fe00a50e0d23b5577ab1d2530805" style="width: 100.0%; height: 100.0%;"><b>Riqualificazione in una Big Farm</b><br><i>Sinalunga</i><br>Altana, IISS Poliziano, 4B LS, AI, Video, progetti,</div>`)[0];
+            popup_e4896921d11fdf22735f165a96612e73.setContent(html_6957fe00a50e0d23b5577ab1d2530805);
+        
+
+        circle_marker_d1de4d94a2fcb459db2b1900d1ea2a11.bindPopup(popup_e4896921d11fdf22735f165a96612e73)
+        ;
+
+        
+    
+    
+            circle_marker_d1de4d94a2fcb459db2b1900d1ea2a11.bindTooltip(
+                `<div>
+                     Sinalunga
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_85638faf963844d0b715026719bc3a5c = L.circleMarker(
+                [43.13549946077938, 11.85689920718052],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_053de441b01eccfa825d53598ac9736f);
+        
+    
+        var popup_b8c951e25fb9717b5ebb70a99b2579ea = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2ad366d023c99c426315fe2378a4568b = $(`<div id="html_2ad366d023c99c426315fe2378a4568b" style="width: 100.0%; height: 100.0%;"><b>PERFORMANCE DI DANZA – Compagnia Francesca Selva</b><br><i>Montepulciano</i><br>ViVa II, performance, musica, danza, spettacolo dal vivo,</div>`)[0];
+            popup_b8c951e25fb9717b5ebb70a99b2579ea.setContent(html_2ad366d023c99c426315fe2378a4568b);
+        
+
+        circle_marker_85638faf963844d0b715026719bc3a5c.bindPopup(popup_b8c951e25fb9717b5ebb70a99b2579ea)
+        ;
+
+        
+    
+    
+            circle_marker_85638faf963844d0b715026719bc3a5c.bindTooltip(
+                `<div>
+                     Montepulciano
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_6c911854ae4c3d741a84800a088c3daf = L.circleMarker(
+                [43.13427366485973, 11.85609642067212],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_053de441b01eccfa825d53598ac9736f);
+        
+    
+        var popup_cd4f43c07cfea947487e0be8bb1daaa3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ac1aa7f6b26a27de2e50dabe90aae7f0 = $(`<div id="html_ac1aa7f6b26a27de2e50dabe90aae7f0" style="width: 100.0%; height: 100.0%;"><b>PERFORMANCE DI DANZA – Compagnia Francesca Selva</b><br><i>Montepulciano</i><br>ViVa II, performance, musica, danza, spettacolo dal vivo, partner</div>`)[0];
+            popup_cd4f43c07cfea947487e0be8bb1daaa3.setContent(html_ac1aa7f6b26a27de2e50dabe90aae7f0);
+        
+
+        circle_marker_6c911854ae4c3d741a84800a088c3daf.bindPopup(popup_cd4f43c07cfea947487e0be8bb1daaa3)
+        ;
+
+        
+    
+    
+            circle_marker_6c911854ae4c3d741a84800a088c3daf.bindTooltip(
+                `<div>
+                     Montepulciano
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_58901b5ed43358beeb5c3647cd4e9c4a = L.circleMarker(
+                [43.12656229052679, 11.736348828836135],
+                {"bubblingMouseEvents": true, "color": "lightblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_053de441b01eccfa825d53598ac9736f);
+        
+    
+        var popup_e5ecf076460583ce5efb3e01bdbb02f9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c591015f2c09957470e3e8e949a5c0c6 = $(`<div id="html_c591015f2c09957470e3e8e949a5c0c6" style="width: 100.0%; height: 100.0%;"><b>PERFORMANCE SITE SPECIFIC- Fondazione Cantiere</b><br><i>Torrita di Siena</i><br>ViVa II, performance, musica, danza, spettacolo dal vivo, partner</div>`)[0];
+            popup_e5ecf076460583ce5efb3e01bdbb02f9.setContent(html_c591015f2c09957470e3e8e949a5c0c6);
+        
+
+        circle_marker_58901b5ed43358beeb5c3647cd4e9c4a.bindPopup(popup_e5ecf076460583ce5efb3e01bdbb02f9)
+        ;
+
+        
+    
+    
+            circle_marker_58901b5ed43358beeb5c3647cd4e9c4a.bindTooltip(
+                `<div>
+                     Torrita di Siena
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_9b21c3c14a6df0ff5e819f51a2272937 = L.circleMarker(
+                [43.09321503211091, 11.781022149508251],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_053de441b01eccfa825d53598ac9736f);
+        
+    
+        var popup_7af2e13b1d724d314d652be19b34988a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ae3df24ad01338bcef84e2200ef23f6f = $(`<div id="html_ae3df24ad01338bcef84e2200ef23f6f" style="width: 100.0%; height: 100.0%;"><b>OPERA CONTEMPORANEA - Fondazione Cantiere</b><br><i>Montepulciano</i><br>ViVa II, performance, musica, danza, spettacolo dal vivo,</div>`)[0];
+            popup_7af2e13b1d724d314d652be19b34988a.setContent(html_ae3df24ad01338bcef84e2200ef23f6f);
+        
+
+        circle_marker_9b21c3c14a6df0ff5e819f51a2272937.bindPopup(popup_7af2e13b1d724d314d652be19b34988a)
+        ;
+
+        
+    
+    
+            circle_marker_9b21c3c14a6df0ff5e819f51a2272937.bindTooltip(
+                `<div>
+                     Montepulciano
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_826c4dc690ac6f268aeaf52bb3d6008a = L.circleMarker(
+                [42.99104448873493, 11.866714676491451],
+                {"bubblingMouseEvents": true, "color": "darkblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "darkblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_053de441b01eccfa825d53598ac9736f);
+        
+    
+        var popup_71b81bce3cc97588065f393132039bdb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_783f2e69787875658415a8f4c56d5cda = $(`<div id="html_783f2e69787875658415a8f4c56d5cda" style="width: 100.0%; height: 100.0%;"><b>TEATRO MUSICALE - Fondazione Cantiere</b><br><i>Sarteano</i><br>ViVa II, performance, musica, danza, spettacolo dal vivo,</div>`)[0];
+            popup_71b81bce3cc97588065f393132039bdb.setContent(html_783f2e69787875658415a8f4c56d5cda);
+        
+
+        circle_marker_826c4dc690ac6f268aeaf52bb3d6008a.bindPopup(popup_71b81bce3cc97588065f393132039bdb)
+        ;
+
+        
+    
+    
+            circle_marker_826c4dc690ac6f268aeaf52bb3d6008a.bindTooltip(
+                `<div>
+                     Sarteano
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_2600e86542b8afe57267f52b1aaa522c = L.circleMarker(
+                [43.13413059478552, 11.854718436016654],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_053de441b01eccfa825d53598ac9736f);
+        
+    
+        var popup_f274d6342895a86246d5d982e0189321 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_242f1275171a45bf59617c74e0f9e473 = $(`<div id="html_242f1275171a45bf59617c74e0f9e473" style="width: 100.0%; height: 100.0%;"><b>CONCERTO D’ORGANO – Fondazione Cantiere</b><br><i>Montepulciano</i><br>ViVa II, performance, musica, danza, spettacolo dal vivo,</div>`)[0];
+            popup_f274d6342895a86246d5d982e0189321.setContent(html_242f1275171a45bf59617c74e0f9e473);
+        
+
+        circle_marker_2600e86542b8afe57267f52b1aaa522c.bindPopup(popup_f274d6342895a86246d5d982e0189321)
+        ;
+
+        
+    
+    
+            circle_marker_2600e86542b8afe57267f52b1aaa522c.bindTooltip(
+                `<div>
+                     Montepulciano
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_80f5010f95f5d12e63e88786f7b459eb = L.circleMarker(
+                [42.87125315979035, 11.872063599104273],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_053de441b01eccfa825d53598ac9736f);
+        
+    
+        var popup_8643f8adcdf16d1ee665d2898496db71 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e97001f3004369bfa267bc41e3d48981 = $(`<div id="html_e97001f3004369bfa267bc41e3d48981" style="width: 100.0%; height: 100.0%;"><b>TEATRO E MUSICA – Fondazione Cantiere</b><br><i>San Casciano dei Bagni</i><br>ViVa II, performance, musica, danza, spettacolo dal vivo,</div>`)[0];
+            popup_8643f8adcdf16d1ee665d2898496db71.setContent(html_e97001f3004369bfa267bc41e3d48981);
+        
+
+        circle_marker_80f5010f95f5d12e63e88786f7b459eb.bindPopup(popup_8643f8adcdf16d1ee665d2898496db71)
+        ;
+
+        
+    
+    
+            circle_marker_80f5010f95f5d12e63e88786f7b459eb.bindTooltip(
+                `<div>
+                     San Casciano dei Bagni
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_6a51752357cc07c4fb53082e4bec890e = L.circleMarker(
+                [43.05867032036318, 11.825420242327729],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_053de441b01eccfa825d53598ac9736f);
+        
+    
+        var popup_f5446c22b765ea5633462c737ac3c8c3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1a84db8e4dac479ebed0e94db6d57add = $(`<div id="html_1a84db8e4dac479ebed0e94db6d57add" style="width: 100.0%; height: 100.0%;"><b>CONCERTO – Fondazione Cantiere</b><br><i>Chianciano Terme</i><br>ViVa II, performance, musica, danza, spettacolo dal vivo,</div>`)[0];
+            popup_f5446c22b765ea5633462c737ac3c8c3.setContent(html_1a84db8e4dac479ebed0e94db6d57add);
+        
+
+        circle_marker_6a51752357cc07c4fb53082e4bec890e.bindPopup(popup_f5446c22b765ea5633462c737ac3c8c3)
+        ;
+
+        
+    
+    
+            circle_marker_6a51752357cc07c4fb53082e4bec890e.bindTooltip(
+                `<div>
+                     Chianciano Terme
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_a301dffeadecdc6e32596730263383de = L.circleMarker(
+                [43.212484406707, 11.73644597325636],
+                {"bubblingMouseEvents": true, "color": "pink", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "pink", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_053de441b01eccfa825d53598ac9736f);
+        
+    
+        var popup_eccb10f4b7b614f347c8463f2ca76d7b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_339ebe2fb0811d4861ea68654ead7440 = $(`<div id="html_339ebe2fb0811d4861ea68654ead7440" style="width: 100.0%; height: 100.0%;"><b>CONCERTO CORALE – Fondazione Cantiere</b><br><i>Sinalunga</i><br>ViVa II, performance, musica, danza, spettacolo dal vivo,</div>`)[0];
+            popup_eccb10f4b7b614f347c8463f2ca76d7b.setContent(html_339ebe2fb0811d4861ea68654ead7440);
+        
+
+        circle_marker_a301dffeadecdc6e32596730263383de.bindPopup(popup_eccb10f4b7b614f347c8463f2ca76d7b)
+        ;
+
+        
+    
+    
+            circle_marker_a301dffeadecdc6e32596730263383de.bindTooltip(
+                `<div>
+                     Sinalunga
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_265a7eac5bf04e4cff8a88ab15047089 = L.circleMarker(
+                [43.18921499231813, 11.667319405327582],
+                {"bubblingMouseEvents": true, "color": "lightgreen", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightgreen", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_053de441b01eccfa825d53598ac9736f);
+        
+    
+        var popup_d78fccb3915a3c8f897b8737fc28df3c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3d0498b20f1f11993751b4b5abb84a17 = $(`<div id="html_3d0498b20f1f11993751b4b5abb84a17" style="width: 100.0%; height: 100.0%;"><b>PERFORMANCE – Fondazione Cantiere</b><br><i>Trequanda</i><br>ViVa II, performance, musica, danza, spettacolo dal vivo,</div>`)[0];
+            popup_d78fccb3915a3c8f897b8737fc28df3c.setContent(html_3d0498b20f1f11993751b4b5abb84a17);
+        
+
+        circle_marker_265a7eac5bf04e4cff8a88ab15047089.bindPopup(popup_d78fccb3915a3c8f897b8737fc28df3c)
+        ;
+
+        
+    
+    
+            circle_marker_265a7eac5bf04e4cff8a88ab15047089.bindTooltip(
+                `<div>
+                     Trequanda
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_89696ea698e6b52aef0d9c4b2c966284 = L.circleMarker(
+                [43.09677320524773, 11.785475573972567],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_053de441b01eccfa825d53598ac9736f);
+        
+    
+        var popup_1b4785d6cdee832ae70dfa5ff93515c0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8c46542816fd35cb1d1f9d5369e8fe62 = $(`<div id="html_8c46542816fd35cb1d1f9d5369e8fe62" style="width: 100.0%; height: 100.0%;"><b>CONCERTO - Fondazione Cantiere</b><br><i>Montepulciano</i><br>ViVa II, performance, musica, danza, spettacolo dal vivo,</div>`)[0];
+            popup_1b4785d6cdee832ae70dfa5ff93515c0.setContent(html_8c46542816fd35cb1d1f9d5369e8fe62);
+        
+
+        circle_marker_89696ea698e6b52aef0d9c4b2c966284.bindPopup(popup_1b4785d6cdee832ae70dfa5ff93515c0)
+        ;
+
+        
+    
+    
+            circle_marker_89696ea698e6b52aef0d9c4b2c966284.bindTooltip(
+                `<div>
+                     Montepulciano
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_0c742619df6bd6044637abd6f85da9c3 = L.circleMarker(
+                [43.09543292326881, 11.782795981316474],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_053de441b01eccfa825d53598ac9736f);
+        
+    
+        var popup_c443899235e7102fc92d8148eac0a233 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f37675675c78161c7416f5aafa607ddd = $(`<div id="html_f37675675c78161c7416f5aafa607ddd" style="width: 100.0%; height: 100.0%;"><b>CONCERTO - Fondazione Cantiere</b><br><i>Montepulciano</i><br>ViVa II, performance, musica, danza, spettacolo dal vivo,</div>`)[0];
+            popup_c443899235e7102fc92d8148eac0a233.setContent(html_f37675675c78161c7416f5aafa607ddd);
+        
+
+        circle_marker_0c742619df6bd6044637abd6f85da9c3.bindPopup(popup_c443899235e7102fc92d8148eac0a233)
+        ;
+
+        
+    
+    
+            circle_marker_0c742619df6bd6044637abd6f85da9c3.bindTooltip(
+                `<div>
+                     Montepulciano
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_01de47fab9ed67f8fde81ffc784b4c00 = L.circleMarker(
+                [43.09299242866352, 11.781227122525054],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_053de441b01eccfa825d53598ac9736f);
+        
+    
+        var popup_7727f6e53aaa7cdc6458f41a654488b7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f709c58561192314e49a8392fb40d04c = $(`<div id="html_f709c58561192314e49a8392fb40d04c" style="width: 100.0%; height: 100.0%;"><b>PERFORMANCE MUSICA CONTEMPORANEA – Fondazione Cantiere</b><br><i>Montepulciano</i><br>ViVa II, performance, musica, danza, spettacolo dal vivo,</div>`)[0];
+            popup_7727f6e53aaa7cdc6458f41a654488b7.setContent(html_f709c58561192314e49a8392fb40d04c);
+        
+
+        circle_marker_01de47fab9ed67f8fde81ffc784b4c00.bindPopup(popup_7727f6e53aaa7cdc6458f41a654488b7)
+        ;
+
+        
+    
+    
+            circle_marker_01de47fab9ed67f8fde81ffc784b4c00.bindTooltip(
+                `<div>
+                     Montepulciano
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_3439ede2e44ce4646b0423344ab788e3 = L.circleMarker(
+                [43.09273682513025, 11.780884891835983],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_053de441b01eccfa825d53598ac9736f);
+        
+    
+        var popup_30db5a2b20c123aede31607f6b30b40b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e0edab1e0dc2bc4b0cc9f93b39203cff = $(`<div id="html_e0edab1e0dc2bc4b0cc9f93b39203cff" style="width: 100.0%; height: 100.0%;"><b>DANZA – Fondazione Cantiere</b><br><i>Montepulciano</i><br>ViVa II, performance, musica, danza, spettacolo dal vivo,</div>`)[0];
+            popup_30db5a2b20c123aede31607f6b30b40b.setContent(html_e0edab1e0dc2bc4b0cc9f93b39203cff);
+        
+
+        circle_marker_3439ede2e44ce4646b0423344ab788e3.bindPopup(popup_30db5a2b20c123aede31607f6b30b40b)
+        ;
+
+        
+    
+    
+            circle_marker_3439ede2e44ce4646b0423344ab788e3.bindTooltip(
+                `<div>
+                     Montepulciano
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_a2c2d217a8d9b213b48bb1f8b369bc09 = L.circleMarker(
+                [43.09095146911684, 11.774832924146764],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_053de441b01eccfa825d53598ac9736f);
+        
+    
+        var popup_e710c11393f49d2222148d83bfdf8218 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1809ef06d1f5b4e3d1ff4b51fa436416 = $(`<div id="html_1809ef06d1f5b4e3d1ff4b51fa436416" style="width: 100.0%; height: 100.0%;"><b>CONCERTO SINFONICO – Fondazione Cantiere</b><br><i>Montepulciano</i><br>ViVa II, performance, musica, danza, spettacolo dal vivo,</div>`)[0];
+            popup_e710c11393f49d2222148d83bfdf8218.setContent(html_1809ef06d1f5b4e3d1ff4b51fa436416);
+        
+
+        circle_marker_a2c2d217a8d9b213b48bb1f8b369bc09.bindPopup(popup_e710c11393f49d2222148d83bfdf8218)
+        ;
+
+        
+    
+    
+            circle_marker_a2c2d217a8d9b213b48bb1f8b369bc09.bindTooltip(
+                `<div>
+                     Montepulciano
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_748ebed4db027feae33b8e5b5337aa96 = L.circleMarker(
+                [43.05146498844811, 11.956465051552486],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_053de441b01eccfa825d53598ac9736f);
+        
+    
+        var popup_51b91025d9e56541904db515db45da12 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4ff87fa038f1fd0c26ca296128150d97 = $(`<div id="html_4ff87fa038f1fd0c26ca296128150d97" style="width: 100.0%; height: 100.0%;"><b>VISIT-AZIONI - Fondazione Orizzonti (partenza)</b><br><i>Chiusi</i><br>ViVa II, performance, musica, danza, spettacolo dal vivo, podcast,</div>`)[0];
+            popup_51b91025d9e56541904db515db45da12.setContent(html_4ff87fa038f1fd0c26ca296128150d97);
+        
+
+        circle_marker_748ebed4db027feae33b8e5b5337aa96.bindPopup(popup_51b91025d9e56541904db515db45da12)
+        ;
+
+        
+    
+    
+            circle_marker_748ebed4db027feae33b8e5b5337aa96.bindTooltip(
+                `<div>
+                     Chiusi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_eeea91d07d0ecc5a2ba447c3e1604d30 = L.circleMarker(
+                [43.04965000201078, 11.9609282473838],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_053de441b01eccfa825d53598ac9736f);
+        
+    
+        var popup_5a14b4acf2ff2b958f4b0d3dadcef136 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a4c7387cfec5c3a3c25a5f97005c2e91 = $(`<div id="html_a4c7387cfec5c3a3c25a5f97005c2e91" style="width: 100.0%; height: 100.0%;"><b>VISIT-AZIONI - Fondazione Orizzonti (arrivo)</b><br><i>Chiusi</i><br>ViVa II, performance, musica, danza, spettacolo dal vivo, podcast,</div>`)[0];
+            popup_5a14b4acf2ff2b958f4b0d3dadcef136.setContent(html_a4c7387cfec5c3a3c25a5f97005c2e91);
+        
+
+        circle_marker_eeea91d07d0ecc5a2ba447c3e1604d30.bindPopup(popup_5a14b4acf2ff2b958f4b0d3dadcef136)
+        ;
+
+        
+    
+    
+            circle_marker_eeea91d07d0ecc5a2ba447c3e1604d30.bindTooltip(
+                `<div>
+                     Chiusi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_2c7b7617285b58294716c80cec3c548b = L.circleMarker(
+                [43.015392249321, 11.94868747095211],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_053de441b01eccfa825d53598ac9736f);
+        
+    
+        var popup_ab1c975366469c07eef525b3b016d1bd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1c2efc66ca8ea577f3ec7e43d0e5973b = $(`<div id="html_1c2efc66ca8ea577f3ec7e43d0e5973b" style="width: 100.0%; height: 100.0%;"><b>VISIT-AZIONI - Fondazione Orizzonti</b><br><i>Chiusi</i><br>ViVa II, performance, musica, danza, spettacolo dal vivo, podcast,</div>`)[0];
+            popup_ab1c975366469c07eef525b3b016d1bd.setContent(html_1c2efc66ca8ea577f3ec7e43d0e5973b);
+        
+
+        circle_marker_2c7b7617285b58294716c80cec3c548b.bindPopup(popup_ab1c975366469c07eef525b3b016d1bd)
+        ;
+
+        
+    
+    
+            circle_marker_2c7b7617285b58294716c80cec3c548b.bindTooltip(
+                `<div>
+                     Chiusi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_10e5ba9067b8cbd004fe327499e7f876 = L.circleMarker(
+                [43.0166994444631, 11.94689899577308],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_053de441b01eccfa825d53598ac9736f);
+        
+    
+        var popup_c2805491aee989df7e97ab6fdbfed3b7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ae4ed287d1ddda5d4d84ee2c7a9cea9a = $(`<div id="html_ae4ed287d1ddda5d4d84ee2c7a9cea9a" style="width: 100.0%; height: 100.0%;"><b>VISIT-AZIONI - Fondazione Orizzonti</b><br><i>Chiusi</i><br>ViVa II, performance, musica, danza, spettacolo dal vivo, podcast,</div>`)[0];
+            popup_c2805491aee989df7e97ab6fdbfed3b7.setContent(html_ae4ed287d1ddda5d4d84ee2c7a9cea9a);
+        
+
+        circle_marker_10e5ba9067b8cbd004fe327499e7f876.bindPopup(popup_c2805491aee989df7e97ab6fdbfed3b7)
+        ;
+
+        
+    
+    
+            circle_marker_10e5ba9067b8cbd004fe327499e7f876.bindTooltip(
+                `<div>
+                     Chiusi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_372cd17db7cfe67e00b06feb28d6d857 = L.circleMarker(
+                [43.00264845189317, 11.95705012646215],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_053de441b01eccfa825d53598ac9736f);
+        
+    
+        var popup_fb245c61d8718c7380e8ff0c69be3ff1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f492b10e66539b5268cbcb2e4e172ec8 = $(`<div id="html_f492b10e66539b5268cbcb2e4e172ec8" style="width: 100.0%; height: 100.0%;"><b>PERFORMANCE DI DANZA - Compagnia Francesca Selva</b><br><i>Chiusi</i><br>ViVa II, performance, musica, danza, spettacolo dal vivo, partner</div>`)[0];
+            popup_fb245c61d8718c7380e8ff0c69be3ff1.setContent(html_f492b10e66539b5268cbcb2e4e172ec8);
+        
+
+        circle_marker_372cd17db7cfe67e00b06feb28d6d857.bindPopup(popup_fb245c61d8718c7380e8ff0c69be3ff1)
+        ;
+
+        
+    
+    
+            circle_marker_372cd17db7cfe67e00b06feb28d6d857.bindTooltip(
+                `<div>
+                     Chiusi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_e9ec4a37a1715fa90c7f963ba467daa1 = L.circleMarker(
+                [43.11326391308132, 11.86403485916786],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_053de441b01eccfa825d53598ac9736f);
+        
+    
+        var popup_c9c7239176a1ffbdd67373b918187239 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2f9d9bcb185fd4f4428a0d8548d0196e = $(`<div id="html_2f9d9bcb185fd4f4428a0d8548d0196e" style="width: 100.0%; height: 100.0%;"><b>Azione. ARTE PUBBLICA RIGENERATIVA</b><br><i>Montepulciano</i><br>ViVa, arte contemporanea, arte sociale, murales, partecipazione,</div>`)[0];
+            popup_c9c7239176a1ffbdd67373b918187239.setContent(html_2f9d9bcb185fd4f4428a0d8548d0196e);
+        
+
+        circle_marker_e9ec4a37a1715fa90c7f963ba467daa1.bindPopup(popup_c9c7239176a1ffbdd67373b918187239)
+        ;
+
+        
+    
+    
+            circle_marker_e9ec4a37a1715fa90c7f963ba467daa1.bindTooltip(
+                `<div>
+                     Montepulciano
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_240f0ef6218fadc85a9d6dd645c916e9 = L.circleMarker(
+                [43.17423982, 11.7875787],
+                {"bubblingMouseEvents": true, "color": "lightblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_053de441b01eccfa825d53598ac9736f);
+        
+    
+        var popup_c1dbeda23e5d35360dec91b32ca2def9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2cd812060eba8152d3a1cf14c75adc10 = $(`<div id="html_2cd812060eba8152d3a1cf14c75adc10" style="width: 100.0%; height: 100.0%;"><b>ECO_Re-generation - Viaggio in treno. Opificio Badesse.</b><br><i>Torrita di Siena</i><br>ViVa II, performance, musica, spettacolo dal vivo, Treno, studenti, vertical farm, podcast</div>`)[0];
+            popup_c1dbeda23e5d35360dec91b32ca2def9.setContent(html_2cd812060eba8152d3a1cf14c75adc10);
+        
+
+        circle_marker_240f0ef6218fadc85a9d6dd645c916e9.bindPopup(popup_c1dbeda23e5d35360dec91b32ca2def9)
+        ;
+
+        
+    
+    
+            circle_marker_240f0ef6218fadc85a9d6dd645c916e9.bindTooltip(
+                `<div>
+                     Torrita di Siena
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_0e3f600f9c316c7df4833be13d389351 = L.circleMarker(
+                [43.1678193, 11.781703635],
+                {"bubblingMouseEvents": true, "color": "lightblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_053de441b01eccfa825d53598ac9736f);
+        
+    
+        var popup_683d7c83c363ba4478137345ac535cd6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8fbee24ce01b63075f9f0d86a890cfcc = $(`<div id="html_8fbee24ce01b63075f9f0d86a890cfcc" style="width: 100.0%; height: 100.0%;"><b>ECO_Re-generation - Vertical Farm. Opificio Badesse.</b><br><i>Torrita di Siena</i><br>ViVa II, performance, musica, spettacolo dal vivo, Treno, studenti, vertical farm, Casa della Cultura, podcast</div>`)[0];
+            popup_683d7c83c363ba4478137345ac535cd6.setContent(html_8fbee24ce01b63075f9f0d86a890cfcc);
+        
+
+        circle_marker_0e3f600f9c316c7df4833be13d389351.bindPopup(popup_683d7c83c363ba4478137345ac535cd6)
+        ;
+
+        
+    
+    
+            circle_marker_0e3f600f9c316c7df4833be13d389351.bindTooltip(
+                `<div>
+                     Torrita di Siena
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_f5cb01ccd1c65edf172fe155480708d4 = L.circleMarker(
+                [43.1741388545, 11.78787039],
+                {"bubblingMouseEvents": true, "color": "lightblue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "lightblue", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_053de441b01eccfa825d53598ac9736f);
+        
+    
+        var popup_51a52b6d7bcd86180c5d980114f539c1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_66d2013668ff5b467d93286f6c2c254b = $(`<div id="html_66d2013668ff5b467d93286f6c2c254b" style="width: 100.0%; height: 100.0%;"><b>PODCAST ECO_MAPS. Opificio Badesse.</b><br><i>Torrita di Siena</i><br>ViVa II, performance, musica, spettacolo dal vivo, mostra, fotografia, podcast,</div>`)[0];
+            popup_51a52b6d7bcd86180c5d980114f539c1.setContent(html_66d2013668ff5b467d93286f6c2c254b);
+        
+
+        circle_marker_f5cb01ccd1c65edf172fe155480708d4.bindPopup(popup_51a52b6d7bcd86180c5d980114f539c1)
+        ;
+
+        
+    
+    
+            circle_marker_f5cb01ccd1c65edf172fe155480708d4.bindTooltip(
+                `<div>
+                     Torrita di Siena
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_1c1487a6637e2db3ca2333bf29600bb5 = L.circleMarker(
+                [43.016061335, 11.949297997],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_053de441b01eccfa825d53598ac9736f);
+        
+    
+        var popup_a09f27ddfa966c1da4ab938d08e13bd9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_189fd7134dcfe660dfd5cdbab100f0ac = $(`<div id="html_189fd7134dcfe660dfd5cdbab100f0ac" style="width: 100.0%; height: 100.0%;"><b>Lo Stato delle Cose</b><br><i>Chiusi</i><br>ViVa II, mostra, fotografia,</div>`)[0];
+            popup_a09f27ddfa966c1da4ab938d08e13bd9.setContent(html_189fd7134dcfe660dfd5cdbab100f0ac);
+        
+
+        circle_marker_1c1487a6637e2db3ca2333bf29600bb5.bindPopup(popup_a09f27ddfa966c1da4ab938d08e13bd9)
+        ;
+
+        
+    
+    
+            circle_marker_1c1487a6637e2db3ca2333bf29600bb5.bindTooltip(
+                `<div>
+                     Chiusi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_495bbcf013b1e3907dacaa6c9048a0fe = L.circleMarker(
+                [43.016061335, 11.949297997],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_053de441b01eccfa825d53598ac9736f);
+        
+    
+        var popup_509ebde9438f313b93a10608b494288e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_84870d40908ce495ee6a5448980e4854 = $(`<div id="html_84870d40908ce495ee6a5448980e4854" style="width: 100.0%; height: 100.0%;"><b>Lo Stato delle Cose</b><br><i>Chiusi</i><br>ViVa II, mostra, fotografia, Altana, IISS Poliziano, 4B LS, AI, Video, progetti,</div>`)[0];
+            popup_509ebde9438f313b93a10608b494288e.setContent(html_84870d40908ce495ee6a5448980e4854);
+        
+
+        circle_marker_495bbcf013b1e3907dacaa6c9048a0fe.bindPopup(popup_509ebde9438f313b93a10608b494288e)
+        ;
+
+        
+    
+    
+            circle_marker_495bbcf013b1e3907dacaa6c9048a0fe.bindTooltip(
+                `<div>
+                     Chiusi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_49dbc1bd3b14205bd5742169ca5b1ed1 = L.circleMarker(
+                [43.0160103, 11.9479622],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_053de441b01eccfa825d53598ac9736f);
+        
+    
+        var popup_92b2f0a10b3216c2a57c2f01a96f9f84 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_95ea9f033e94385b543786816e4fb264 = $(`<div id="html_95ea9f033e94385b543786816e4fb264" style="width: 100.0%; height: 100.0%;"><b>F.e.m.a. srl</b><br><i>Chiusi</i><br>Altana, mostra, food, beverage,</div>`)[0];
+            popup_92b2f0a10b3216c2a57c2f01a96f9f84.setContent(html_95ea9f033e94385b543786816e4fb264);
+        
+
+        circle_marker_49dbc1bd3b14205bd5742169ca5b1ed1.bindPopup(popup_92b2f0a10b3216c2a57c2f01a96f9f84)
+        ;
+
+        
+    
+    
+            circle_marker_49dbc1bd3b14205bd5742169ca5b1ed1.bindTooltip(
+                `<div>
+                     Chiusi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_dd79c6144f5a2d03064cb7eeff689285 = L.circleMarker(
+                [43.0500124, 11.9621236],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_053de441b01eccfa825d53598ac9736f);
+        
+    
+        var popup_05e384a886ffb7c4f9cd04d48a397068 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7810ad19c81af925b76c1b6d137f82c2 = $(`<div id="html_7810ad19c81af925b76c1b6d137f82c2" style="width: 100.0%; height: 100.0%;"><b>Pontile dei Pescatori</b><br><i>Chiusi</i><br>Lo stato delle cose, Altana, Fotografia, Chiusi, Museo nazionale etrusco,</div>`)[0];
+            popup_05e384a886ffb7c4f9cd04d48a397068.setContent(html_7810ad19c81af925b76c1b6d137f82c2);
+        
+
+        circle_marker_dd79c6144f5a2d03064cb7eeff689285.bindPopup(popup_05e384a886ffb7c4f9cd04d48a397068)
+        ;
+
+        
+    
+    
+            circle_marker_dd79c6144f5a2d03064cb7eeff689285.bindTooltip(
+                `<div>
+                     Chiusi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_cfa0e9ccf0f7402465c51cc895ee13fa = L.circleMarker(
+                [43.049887, 11.962239],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_053de441b01eccfa825d53598ac9736f);
+        
+    
+        var popup_8970bcd7cecb12e994af81e8ee0e4f34 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_34e213ec356895e4ca0ba66f85e4c3c3 = $(`<div id="html_34e213ec356895e4ca0ba66f85e4c3c3" style="width: 100.0%; height: 100.0%;"><b>Lungo Lago dx</b><br><i>Chiusi</i><br>Lo stato delle cose, Altana, Fotografia, Chiusi, Museo nazionale etrusco,</div>`)[0];
+            popup_8970bcd7cecb12e994af81e8ee0e4f34.setContent(html_34e213ec356895e4ca0ba66f85e4c3c3);
+        
+
+        circle_marker_cfa0e9ccf0f7402465c51cc895ee13fa.bindPopup(popup_8970bcd7cecb12e994af81e8ee0e4f34)
+        ;
+
+        
+    
+    
+            circle_marker_cfa0e9ccf0f7402465c51cc895ee13fa.bindTooltip(
+                `<div>
+                     Chiusi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_b455c691a8a7297fe0e3f51253958c4c = L.circleMarker(
+                [43.0495773, 11.9613377],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_053de441b01eccfa825d53598ac9736f);
+        
+    
+        var popup_41a21cd946a320d08d7b48aa0a5dbea5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_15cb0103dcc7304e9aa2b378c3fe167d = $(`<div id="html_15cb0103dcc7304e9aa2b378c3fe167d" style="width: 100.0%; height: 100.0%;"><b>Canottieri</b><br><i>Chiusi</i><br>Lo stato delle cose, Altana, Fotografia, Chiusi, Museo nazionale etrusco,</div>`)[0];
+            popup_41a21cd946a320d08d7b48aa0a5dbea5.setContent(html_15cb0103dcc7304e9aa2b378c3fe167d);
+        
+
+        circle_marker_b455c691a8a7297fe0e3f51253958c4c.bindPopup(popup_41a21cd946a320d08d7b48aa0a5dbea5)
+        ;
+
+        
+    
+    
+            circle_marker_b455c691a8a7297fe0e3f51253958c4c.bindTooltip(
+                `<div>
+                     Chiusi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_bbd1c6389055e46c7901e89375eb9093 = L.circleMarker(
+                [43.0500085, 11.9618688],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_053de441b01eccfa825d53598ac9736f);
+        
+    
+        var popup_0eb98fe59a0ffc89b9b758a6b2bce685 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_473a1032fddecd231ddb8efcbe0f4882 = $(`<div id="html_473a1032fddecd231ddb8efcbe0f4882" style="width: 100.0%; height: 100.0%;"><b>Lungo Lago sx</b><br><i>Chiusi</i><br>Lo stato delle cose, Altana, Fotografia, Chiusi, Museo nazionale etrusco,</div>`)[0];
+            popup_0eb98fe59a0ffc89b9b758a6b2bce685.setContent(html_473a1032fddecd231ddb8efcbe0f4882);
+        
+
+        circle_marker_bbd1c6389055e46c7901e89375eb9093.bindPopup(popup_0eb98fe59a0ffc89b9b758a6b2bce685)
+        ;
+
+        
+    
+    
+            circle_marker_bbd1c6389055e46c7901e89375eb9093.bindTooltip(
+                `<div>
+                     Chiusi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_be99051868cedd0b16736f8ab210c09b = L.circleMarker(
+                [43.0502948, 11.9622973],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_053de441b01eccfa825d53598ac9736f);
+        
+    
+        var popup_f0ac37f0f24e05b7cd6f59a98239faea = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9c36a9ada22f59b0805989f36ad2dc06 = $(`<div id="html_9c36a9ada22f59b0805989f36ad2dc06" style="width: 100.0%; height: 100.0%;"><b>Canottieri 2</b><br><i>Chiusi</i><br>Lo stato delle cose, Altana, Fotografia, Chiusi, Museo nazionale etrusco,</div>`)[0];
+            popup_f0ac37f0f24e05b7cd6f59a98239faea.setContent(html_9c36a9ada22f59b0805989f36ad2dc06);
+        
+
+        circle_marker_be99051868cedd0b16736f8ab210c09b.bindPopup(popup_f0ac37f0f24e05b7cd6f59a98239faea)
+        ;
+
+        
+    
+    
+            circle_marker_be99051868cedd0b16736f8ab210c09b.bindTooltip(
+                `<div>
+                     Chiusi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_56c80c575c7472f5dfdc317ebaa5c670 = L.circleMarker(
+                [43.0516557, 11.9579219],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_053de441b01eccfa825d53598ac9736f);
+        
+    
+        var popup_1d6e0b73c1ada396a1871680bcc34cc1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a9fa2fc23e945eab49c7016534b8da3c = $(`<div id="html_a9fa2fc23e945eab49c7016534b8da3c" style="width: 100.0%; height: 100.0%;"><b>Pontile Pesce d'Oro</b><br><i>Chiusi</i><br>Lo stato delle cose, Altana, Fotografia, Chiusi, Museo nazionale etrusco,</div>`)[0];
+            popup_1d6e0b73c1ada396a1871680bcc34cc1.setContent(html_a9fa2fc23e945eab49c7016534b8da3c);
+        
+
+        circle_marker_56c80c575c7472f5dfdc317ebaa5c670.bindPopup(popup_1d6e0b73c1ada396a1871680bcc34cc1)
+        ;
+
+        
+    
+    
+            circle_marker_56c80c575c7472f5dfdc317ebaa5c670.bindTooltip(
+                `<div>
+                     Chiusi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_e420685cdcb3f2794bccf3cf583c61dc = L.circleMarker(
+                [43.0991857, 11.897685],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_053de441b01eccfa825d53598ac9736f);
+        
+    
+        var popup_f41faf8fa1711cbc94d424a488d31d28 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4b6cc6dbe2433aa0f0b94485b441bc7f = $(`<div id="html_4b6cc6dbe2433aa0f0b94485b441bc7f" style="width: 100.0%; height: 100.0%;"><b>Leopoldine</b><br><i>Montepulciano</i><br>Lo stato delle cose, Altana, Fotografia, Chiusi, Museo nazionale etrusco,</div>`)[0];
+            popup_f41faf8fa1711cbc94d424a488d31d28.setContent(html_4b6cc6dbe2433aa0f0b94485b441bc7f);
+        
+
+        circle_marker_e420685cdcb3f2794bccf3cf583c61dc.bindPopup(popup_f41faf8fa1711cbc94d424a488d31d28)
+        ;
+
+        
+    
+    
+            circle_marker_e420685cdcb3f2794bccf3cf583c61dc.bindTooltip(
+                `<div>
+                     Montepulciano
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_6545e96fa13ae903905b1baf9932ce31 = L.circleMarker(
+                [43.103266, 11.9026576],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_053de441b01eccfa825d53598ac9736f);
+        
+    
+        var popup_ba38edcb3bb809e083e9dd0e8677505a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_89b235ff1de7a679b46338b7b48e4f7d = $(`<div id="html_89b235ff1de7a679b46338b7b48e4f7d" style="width: 100.0%; height: 100.0%;"><b>Leopoldine 2</b><br><i>Montepulciano</i><br>Lo stato delle cose, Altana, Fotografia, Chiusi, Museo nazionale etrusco,</div>`)[0];
+            popup_ba38edcb3bb809e083e9dd0e8677505a.setContent(html_89b235ff1de7a679b46338b7b48e4f7d);
+        
+
+        circle_marker_6545e96fa13ae903905b1baf9932ce31.bindPopup(popup_ba38edcb3bb809e083e9dd0e8677505a)
+        ;
+
+        
+    
+    
+            circle_marker_6545e96fa13ae903905b1baf9932ce31.bindTooltip(
+                `<div>
+                     Montepulciano
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_34bcc87caf0392bd791d7c09733ec85f = L.circleMarker(
+                [43.0992709, 11.9138585],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_053de441b01eccfa825d53598ac9736f);
+        
+    
+        var popup_de559b7bdfbc6eaa7f51a24d62bb074e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e540a16666f82f021d5e917e7749f13a = $(`<div id="html_e540a16666f82f021d5e917e7749f13a" style="width: 100.0%; height: 100.0%;"><b>Panorama</b><br><i>Montepulciano</i><br>Lo stato delle cose, Altana, Fotografia, Chiusi, Museo nazionale etrusco,</div>`)[0];
+            popup_de559b7bdfbc6eaa7f51a24d62bb074e.setContent(html_e540a16666f82f021d5e917e7749f13a);
+        
+
+        circle_marker_34bcc87caf0392bd791d7c09733ec85f.bindPopup(popup_de559b7bdfbc6eaa7f51a24d62bb074e)
+        ;
+
+        
+    
+    
+            circle_marker_34bcc87caf0392bd791d7c09733ec85f.bindTooltip(
+                `<div>
+                     Montepulciano
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_144b9c80e25b41e1cf19f0847dad8605 = L.circleMarker(
+                [43.0159829, 11.9495699],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_053de441b01eccfa825d53598ac9736f);
+        
+    
+        var popup_49cccb9f32804ef9df95fa28b9124634 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7efba6704f62dcd78d88e1ead8f64068 = $(`<div id="html_7efba6704f62dcd78d88e1ead8f64068" style="width: 100.0%; height: 100.0%;"><b>Casa del Fascio</b><br><i>Chiusi</i><br>Lo stato delle cose, Altana, Fotografia, Chiusi, Museo nazionale etrusco, architettura, restauro,</div>`)[0];
+            popup_49cccb9f32804ef9df95fa28b9124634.setContent(html_7efba6704f62dcd78d88e1ead8f64068);
+        
+
+        circle_marker_144b9c80e25b41e1cf19f0847dad8605.bindPopup(popup_49cccb9f32804ef9df95fa28b9124634)
+        ;
+
+        
+    
+    
+            circle_marker_144b9c80e25b41e1cf19f0847dad8605.bindTooltip(
+                `<div>
+                     Chiusi
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_cb4cb0d4d3bcac41fea8062e8ac0d4da = L.circleMarker(
+                [43.0938978, 11.7779322],
+                {"bubblingMouseEvents": true, "color": "purple", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "purple", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6, "stroke": true, "weight": 3}
+            ).addTo(marker_cluster_053de441b01eccfa825d53598ac9736f);
+        
+    
+        var popup_7145d2bde00d011172a3ceea9c5354b5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_745e88bc7a2aa842a83fee035ebf6759 = $(`<div id="html_745e88bc7a2aa842a83fee035ebf6759" style="width: 100.0%; height: 100.0%;"><b>Fred</b><br><i>Montepulciano</i><br>Lo stato delle cose, Altana, Fotografia, Chiusi, Museo nazionale etrusco,</div>`)[0];
+            popup_7145d2bde00d011172a3ceea9c5354b5.setContent(html_745e88bc7a2aa842a83fee035ebf6759);
+        
+
+        circle_marker_cb4cb0d4d3bcac41fea8062e8ac0d4da.bindPopup(popup_7145d2bde00d011172a3ceea9c5354b5)
+        ;
+
+        
+    
+    
+            circle_marker_cb4cb0d4d3bcac41fea8062e8ac0d4da.bindTooltip(
+                `<div>
+                     Montepulciano
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
